@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Event Playlist Finder</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="topbar">
+  <h1>🎧 Event Playlist Finder</h1>
+  <div id="authArea">
+    <button id="loginBtn" class="btn btn-primary">Login met Spotify</button>
+    <div id="userInfo" class="user-info hidden">
+      <span id="userName"></span>
+      <button id="logoutBtn" class="btn btn-ghost">Uitloggen</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="setupNotice" class="card notice hidden">
+    <p>Je hebt nog geen Spotify Client ID ingesteld. Zie <strong>README.md</strong> voor de setup (5 minuten, eenmalig).</p>
+    <label>Spotify Client ID</label>
+    <input id="clientIdInput" type="text" placeholder="Plak hier je Client ID" />
+    <button id="saveClientIdBtn" class="btn btn-primary">Opslaan</button>
+  </section>
+
+  <section id="searchSection" class="card hidden">
+    <h2>Wat voor evenement is het?</h2>
+    <div id="categoryChips" class="chips"></div>
+
+    <label class="field-label">Of typ zelf een thema/sfeer</label>
+    <input id="themeInput" type="text" placeholder="bv. jaren 20 gala, kerstdiner, beachclub ibiza..." />
+
+    <label class="field-label">Energie</label>
+    <div class="chips" id="energyChips">
+      <button class="chip" data-energy="rustig">Rustig achtergrond</button>
+      <button class="chip" data-energy="gezellig">Gezellig</button>
+      <button class="chip" data-energy="dansbaar">Dansbaar / uptempo</button>
+    </div>
+
+    <button id="searchBtn" class="btn btn-primary btn-large">Zoek playlists</button>
+  </section>
+
+  <section id="statusArea" class="status hidden"></section>
+
+  <section id="results" class="results-grid"></section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
