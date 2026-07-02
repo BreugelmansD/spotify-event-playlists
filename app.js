@@ -130,6 +130,17 @@ async function startLogin() {
 
 async function handleAuthCallback() {
   const params = new URLSearchParams(window.location.search);
+
+  const error = params.get("error");
+  if (error) {
+    window.history.replaceState({}, document.title, window.location.pathname);
+    setupNotice.classList.remove("hidden");
+    showStatus(
+      `Spotify gaf een fout terug: "${error}". Controleer dat de Redirect URI hieronder exact overeenkomt met wat je in het Spotify dashboard hebt ingesteld (en dat je daar op Save hebt geklikt).`
+    );
+    return false;
+  }
+
   const code = params.get("code");
   if (!code) return false;
 
@@ -377,11 +388,23 @@ function escapeHtml(str) {
 
 // ---------- Init ----------
 async function init() {
+  el("redirectUriDisplay").value = REDIRECT_URI;
+  el("copyRedirectBtn").addEventListener("click", async () => {
+    await navigator.clipboard.writeText(REDIRECT_URI);
+    const feedback = el("copyFeedback");
+    feedback.classList.remove("hidden");
+    setTimeout(() => feedback.classList.add("hidden"), 1500);
+  });
+
   el("clientIdInput").value = getClientId();
   el("saveClientIdBtn").addEventListener("click", () => {
     setClientId(el("clientIdInput").value);
     setupNotice.classList.add("hidden");
     updateAuthUI();
+  });
+
+  el("settingsBtn").addEventListener("click", () => {
+    setupNotice.classList.toggle("hidden");
   });
 
   el("loginBtn").addEventListener("click", startLogin);

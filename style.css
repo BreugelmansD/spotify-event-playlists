@@ -52,7 +52,24 @@ main {
   font-size: 0.95rem;
 }
 
-.notice label { color: var(--text-muted); font-size: 0.85rem; }
+.notice label { color: var(--text-muted); font-size: 0.85rem; display: block; }
+
+.redirect-uri-row {
+  display: flex;
+  gap: 8px;
+}
+
+.redirect-uri-row input {
+  flex: 1;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  margin: 0;
+}
+
+.copy-feedback {
+  color: var(--green);
+  font-size: 0.85rem;
+  margin: 6px 0 0;
+}
 
 .field-label {
   display: block;

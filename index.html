@@ -10,6 +10,7 @@
 <header class="topbar">
   <h1>🎧 Event Playlist Finder</h1>
   <div id="authArea">
+    <button id="settingsBtn" class="btn btn-ghost">Instellingen</button>
     <button id="loginBtn" class="btn btn-primary">Login met Spotify</button>
     <div id="userInfo" class="user-info hidden">
       <span id="userName"></span>
@@ -24,6 +25,13 @@
     <label>Spotify Client ID</label>
     <input id="clientIdInput" type="text" placeholder="Plak hier je Client ID" />
     <button id="saveClientIdBtn" class="btn btn-primary">Opslaan</button>
+
+    <label style="margin-top:16px;">Redirect URI (kopieer dit exact naar je Spotify dashboard &gt; Settings &gt; Redirect URIs, en klik daar op Save)</label>
+    <div class="redirect-uri-row">
+      <input id="redirectUriDisplay" type="text" readonly />
+      <button id="copyRedirectBtn" class="btn btn-ghost">Kopieer</button>
+    </div>
+    <p id="copyFeedback" class="copy-feedback hidden">Gekopieerd!</p>
   </section>
 
   <section id="searchSection" class="card hidden">
