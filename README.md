@@ -4,8 +4,12 @@ Kleine web-app die je Spotify-account linkt en op basis van een evenement-thema 
 categorie (chic diner, cocktailparty, bruiloft, achtergrond concert, ...) automatisch
 relevante bestaande Spotify-playlists opzoekt en rangschikt op populariteit.
 
-Puur HTML/JS, geen installaties nodig (geen Node/npm) — draait via de ingebouwde
-Python webserver van macOS.
+Draait live op GitHub Pages, dus geen Terminal, geen server, geen installatie:
+
+**👉 https://breugelmansd.github.io/spotify-event-playlists/**
+
+Bookmark die link (of zet hem op je telefoon/tablet startscherm) en je kan er
+altijd meteen naartoe.
 
 ## Eenmalige setup (5 minuten)
 
@@ -13,12 +17,12 @@ Python webserver van macOS.
 2. Klik **Create app**.
    - App name: bv. `Event Playlist Finder`
    - App description: bv. `Persoonlijke tool voor playlists bij events`
-   - Redirect URI: `http://127.0.0.1:8888/`
+   - Redirect URI: `https://breugelmansd.github.io/spotify-event-playlists/`
    - Vink **Web API** aan als API die je gebruikt.
    - Ga akkoord met de voorwaarden en klik **Save**.
 3. Open je nieuwe app in het dashboard en klik **Settings**. Kopieer de **Client ID**.
-4. Start de lokale server (zie hieronder) en open de app in je browser. Plak de
-   Client ID in het invulveld boven aan de pagina en klik **Opslaan**.
+4. Open de link hierboven, klik **Instellingen** rechtsboven, en plak de Client ID
+   in het invulveld. Klik **Opslaan**.
 5. Klik **Login met Spotify** en log in — je bent klaar.
 
 Je Spotify-app staat standaard in *Development Mode*: enkel accounts die je zelf
@@ -26,18 +30,15 @@ toevoegt via **Settings > User Management** kunnen inloggen (max. 25). Voor eige
 gebruik hoef je hier niets voor te doen — je eigen account (de eigenaar van de app)
 werkt automatisch.
 
-## De app draaien
+Twijfel je of de Redirect URI klopt? Klik **Instellingen** in de app — daar staat
+de exacte URI met een kopieerknop, zodat je nooit met de hand moet overtypen.
 
-Open een terminal in deze map en start:
+## Lokaal draaien (optioneel)
 
-```bash
-python3 -m http.server 8888
-```
-
-Open dan in je browser: http://127.0.0.1:8888/
-
-Belangrijk: de poort (`8888`) moet exact overeenkomen met de Redirect URI die je
-in het Spotify dashboard hebt ingesteld.
+Wil je de app toch lokaal draaien in plaats van via GitHub Pages? Open een terminal
+in deze map en start `python3 -m http.server 8888`, open dan
+http://127.0.0.1:8888/ en voeg die URI ook toe als Redirect URI in het Spotify
+dashboard.
 
 ## Gebruik
 
