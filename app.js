@@ -91,7 +91,7 @@ async function searchPlaylistsForQuery(query) {
 
 async function fetchPlaylistDetails(id) {
   try {
-    const params = new URLSearchParams({ fields: "id,name,external_urls,images,owner,followers,tracks.total" });
+    const params = new URLSearchParams({ fields: "id,name,external_urls,images,owner,followers" });
     const res = await fetch(`${getApiBase()}/playlists/${id}?${params.toString()}`);
     if (!res.ok) return null;
     return await res.json();
@@ -133,7 +133,7 @@ async function runSearch() {
     const batch = candidates.slice(i, i + batchSize);
     const batchDetails = await Promise.all(batch.map((c) => fetchPlaylistDetails(c.id)));
     batchDetails.forEach((d, idx) => {
-      if (d) details.push({ ...d, hits: batch[idx].hits });
+      if (d) details.push({ ...batch[idx].stub, ...d, hits: batch[idx].hits });
       else details.push({ ...batch[idx].stub, hits: batch[idx].hits, followers: null });
     });
   }
@@ -155,7 +155,7 @@ function renderResults(playlists) {
     const img = pl.images?.[0]?.url || "";
     const followers = pl.followers?.total;
     const owner = pl.owner?.display_name || pl.owner?.id || "";
-    const trackCount = pl.tracks?.total;
+    const trackCount = pl.items?.total;
 
     const card = document.createElement("div");
     card.className = "result-card";
