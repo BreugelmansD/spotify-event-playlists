@@ -25,7 +25,8 @@ async function getAppToken(env) {
   });
 
   if (!res.ok) {
-    throw new Error(`Spotify token request failed: ${res.status}`);
+    const detail = await res.text();
+    throw new Error(`Spotify token request failed: ${res.status} ${detail} (client_id length: ${(env.SPOTIFY_CLIENT_ID || "").length}, secret length: ${(env.SPOTIFY_CLIENT_SECRET || "").length})`);
   }
 
   const data = await res.json();
