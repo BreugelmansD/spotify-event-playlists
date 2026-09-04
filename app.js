@@ -1,25 +1,55 @@
 // ---------- Config ----------
-const CATEGORY_QUERIES = {
-  "Chic diner": ["elegant dinner jazz", "sophisticated dinner background", "fine dining instrumental"],
-  "Cocktailparty": ["cocktail party lounge", "cocktail hour jazz", "sophisticated lounge"],
-  "Netwerkevent / receptie": ["corporate reception background", "networking event instrumental", "elegant background music"],
-  "Bruiloft - ceremonie": ["wedding ceremony instrumental", "romantic wedding background"],
-  "Bruiloft - feest": ["wedding party dance hits", "wedding reception party"],
-  "Verjaardagsfeest": ["birthday party hits", "feestmuziek verjaardag"],
-  "Achtergrond concert": ["ambient concert background", "instrumental chill background"],
-  "Lounge / relax": ["chill lounge background", "relaxed lounge instrumental"],
-  "Gala / award show": ["gala evening elegant", "award show orchestral"],
-  "Zomerse borrel / terras": ["summer terrace chill", "outdoor party background", "zomerse borrel"],
+const CATEGORIES = {
+  "Chic diner": { context: "dinner", queries: ["elegant dinner jazz", "sophisticated dinner background", "fine dining instrumental"] },
+  "Cocktailparty": { context: "cocktail party", queries: ["cocktail party lounge", "cocktail hour jazz", "sophisticated lounge"] },
+  "Netwerkevent / receptie": { context: "corporate reception", queries: ["corporate reception background", "networking event instrumental", "elegant background music"] },
+  "Bruiloft - ceremonie": { context: "wedding ceremony", queries: ["wedding ceremony instrumental", "romantic wedding background"] },
+  "Bruiloft - feest": { context: "wedding party", queries: ["wedding party dance hits", "wedding reception party"] },
+  "Verjaardagsfeest": { context: "birthday party", queries: ["birthday party hits", "feestmuziek verjaardag"] },
+  "Achtergrond concert": { context: "ambient background", queries: ["ambient concert background", "instrumental chill background"] },
+  "Lounge / relax": { context: "lounge", queries: ["chill lounge background", "relaxed lounge instrumental"] },
+  "Gala / award show": { context: "gala evening", queries: ["gala evening elegant", "award show orchestral"] },
+  "Zomerse borrel / terras": { context: "summer terrace", queries: ["summer terrace chill", "outdoor party background", "zomerse borrel"] },
+  "Kerst / eindejaarsfeest": { context: "christmas holiday party", queries: ["christmas party hits", "holiday party background", "new year's eve party"] },
+  "Brunch / lunch": { context: "brunch", queries: ["sunday brunch background", "brunch acoustic chill", "daytime lunch background"] },
+  "Beurs / productlancering": { context: "trade show launch", queries: ["corporate event background", "product launch energetic", "trade show ambient"] },
+  "Wijnproeverij / degustatie": { context: "wine tasting", queries: ["wine tasting background", "sommelier lounge jazz", "vineyard chill"] },
+  "Modeshow / fashion event": { context: "fashion show", queries: ["fashion show runway", "high fashion electronic", "editorial fashion playlist"] },
+  "Opening / vernissage": { context: "art gallery opening", queries: ["gallery opening ambient", "art exhibition background", "sophisticated art event"] },
+  "Vintage thema (jaren 20-80)": { context: "retro vintage party", queries: ["roaring twenties gatsby jazz", "retro disco party", "vintage vinyl classics"] },
+  "Kinderfeest / familiefeest": { context: "kids family party", queries: ["kids party hits", "family fun background", "children's birthday songs"] },
+  "Halloween feest": { context: "halloween party", queries: ["halloween party hits", "spooky halloween background", "halloween dance party"] },
+  "Afterparty / late night": { context: "late night party", queries: ["late night house party", "afterparty techno", "club night background"] },
+  "Seminarie / vergadering": { context: "quiet office meeting", queries: ["quiet focus background", "corporate meeting ambient", "subtle instrumental office"] },
+  "Wellness / spa": { context: "spa wellness", queries: ["spa relaxation music", "wellness meditation background", "yoga calm ambient"] },
+};
+
+const GENRES = {
+  "Jazz": "jazz",
+  "Lounge / Chill": "chill lounge",
+  "Klassiek / Instrumentaal": "classical instrumental",
+  "Pop": "pop hits",
+  "House / Electronic": "house electronic",
+  "R&B / Soul": "rnb soul",
+  "Latin": "latin",
+  "Funk / Disco": "funk disco",
+  "Rock": "rock",
+  "Hip-Hop": "hip hop",
+  "Akoestisch": "acoustic singer songwriter",
+  "Wereldmuziek": "world music",
 };
 
 const ENERGY_MODIFIERS = {
+  zeer_rustig: "very calm minimal soft background",
   rustig: "ambient background calm",
   gezellig: "cozy background",
+  energiek: "energetic upbeat feelgood",
   dansbaar: "upbeat dance party",
 };
 
 // ---------- State ----------
 let selectedCategories = new Set();
+let selectedGenres = new Set();
 let selectedEnergy = null;
 
 // ---------- DOM ----------
@@ -67,29 +97,41 @@ function updateSetupUI() {
 // ---------- Search + ranking ----------
 function buildQueries() {
   const queries = new Set();
+  const theme = el("themeInput").value.trim();
 
   selectedCategories.forEach((label) => {
-    CATEGORY_QUERIES[label].forEach((q) => queries.add(q));
+    CATEGORIES[label].queries.forEach((q) => queries.add(q));
   });
 
-  const theme = el("themeInput").value.trim();
   if (theme) {
     queries.add(theme);
     queries.add(`${theme} playlist`);
     queries.add(`${theme} background music`);
   }
 
+  if (selectedGenres.size > 0) {
+    const contexts = selectedCategories.size > 0
+      ? [...selectedCategories].map((label) => CATEGORIES[label].context)
+      : [theme || "event"];
+    selectedGenres.forEach((genreLabel) => {
+      const genreFragment = GENRES[genreLabel];
+      contexts.forEach((context) => queries.add(`${genreFragment} ${context}`));
+    });
+  }
+
   if (selectedEnergy) {
     const modifier = ENERGY_MODIFIERS[selectedEnergy];
-    const base = theme || [...selectedCategories][0] || "event";
-    queries.add(`${base} ${modifier}`);
+    const bases = selectedCategories.size > 0
+      ? [...selectedCategories].map((label) => CATEGORIES[label].context)
+      : [theme || "event"];
+    bases.forEach((base) => queries.add(`${base} ${modifier}`));
   }
 
   if (queries.size === 0) {
     queries.add("background music event");
   }
 
-  return [...queries].slice(0, 8);
+  return [...queries].slice(0, 10);
 }
 
 async function searchPlaylistsForQuery(query) {
@@ -206,19 +248,19 @@ function escapeHtml(str) {
 }
 
 // ---------- UI wiring ----------
-function buildCategoryChips() {
-  const wrap = el("categoryChips");
+function buildMultiSelectChips(containerId, labels, selectedSet) {
+  const wrap = el(containerId);
   wrap.innerHTML = "";
-  Object.keys(CATEGORY_QUERIES).forEach((label) => {
+  labels.forEach((label) => {
     const btn = document.createElement("button");
     btn.className = "chip";
     btn.textContent = label;
     btn.addEventListener("click", () => {
-      if (selectedCategories.has(label)) {
-        selectedCategories.delete(label);
+      if (selectedSet.has(label)) {
+        selectedSet.delete(label);
         btn.classList.remove("active");
       } else {
-        selectedCategories.add(label);
+        selectedSet.add(label);
         btn.classList.add("active");
       }
     });
@@ -259,7 +301,8 @@ function init() {
 
   el("searchBtn").addEventListener("click", runSearch);
 
-  buildCategoryChips();
+  buildMultiSelectChips("categoryChips", Object.keys(CATEGORIES), selectedCategories);
+  buildMultiSelectChips("genreChips", Object.keys(GENRES), selectedGenres);
   buildEnergyChips();
   updateSetupUI();
 }

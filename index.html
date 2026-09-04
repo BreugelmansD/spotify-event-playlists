@@ -31,11 +31,16 @@
     <label class="field-label">Of typ zelf een thema/sfeer</label>
     <input id="themeInput" type="text" placeholder="bv. jaren 20 gala, kerstdiner, beachclub ibiza..." />
 
+    <label class="field-label">Genre (optioneel)</label>
+    <div id="genreChips" class="chips"></div>
+
     <label class="field-label">Energie</label>
     <div class="chips" id="energyChips">
+      <button class="chip" data-energy="zeer_rustig">Heel rustig</button>
       <button class="chip" data-energy="rustig">Rustig achtergrond</button>
       <button class="chip" data-energy="gezellig">Gezellig</button>
-      <button class="chip" data-energy="dansbaar">Dansbaar / uptempo</button>
+      <button class="chip" data-energy="energiek">Energiek</button>
+      <button class="chip" data-energy="dansbaar">Dansbaar / feest</button>
     </div>
 
     <button id="searchBtn" class="btn btn-primary btn-large">Zoek playlists</button>
