@@ -1,62 +1,82 @@
 # Event Playlist Finder
 
-Kleine web-app die je Spotify-account linkt en op basis van een evenement-thema of
-categorie (chic diner, cocktailparty, bruiloft, achtergrond concert, ...) automatisch
-relevante bestaande Spotify-playlists opzoekt en rangschikt op populariteit.
+Site openen, categorie(ën) kiezen (of zelf een thema typen), en een lijst krijgen
+van bestaande Spotify-playlists die je kan gebruiken als achtergrondmuziek bij een
+evenement — van chic diner tot bruiloftsfeest tot achtergrond bij een concert.
 
-Draait live op GitHub Pages, dus geen Terminal, geen server, geen installatie:
+**Geen Spotify-login nodig.** De site praat via een kleine, gratis achtergrond-proxy
+(Cloudflare Worker) met Spotify, dus jij (en iedereen die de link gebruikt) hoeft
+nergens in te loggen.
 
 **👉 https://breugelmansd.github.io/spotify-event-playlists/**
 
-Bookmark die link (of zet hem op je telefoon/tablet startscherm) en je kan er
-altijd meteen naartoe.
+## Eenmalige setup (~10 minuten)
 
-## Eenmalige setup (5 minuten)
+Dit moet je één keer doen. Daarna werkt de link hierboven voor altijd, voor
+iedereen, zonder inloggen.
 
-1. Ga naar https://developer.spotify.com/dashboard en log in met je Spotify-account.
+### 1. Spotify-app aanmaken (geeft je een Client ID + Secret)
+
+1. Ga naar https://developer.spotify.com/dashboard en log in.
 2. Klik **Create app**.
    - App name: bv. `Event Playlist Finder`
    - App description: bv. `Persoonlijke tool voor playlists bij events`
-   - Redirect URI: `https://breugelmansd.github.io/spotify-event-playlists/`
-   - Vink **Web API** aan als API die je gebruikt.
-   - Ga akkoord met de voorwaarden en klik **Save**.
-3. Open je nieuwe app in het dashboard en klik **Settings**. Kopieer de **Client ID**.
-4. Open de link hierboven, klik **Instellingen** rechtsboven, en plak de Client ID
-   in het invulveld. Klik **Opslaan**.
-5. Klik **Login met Spotify** en log in — je bent klaar.
+   - Redirect URI: mag je leeg laten of iets invullen zoals `https://example.com`
+     — wordt niet gebruikt, want er is geen login.
+   - Vink **Web API** aan.
+   - Akkoord en **Save**.
+3. Open de app, ga naar **Settings** en noteer de **Client ID** en **Client Secret**
+   (klik "View client secret").
 
-Je Spotify-app staat standaard in *Development Mode*: enkel accounts die je zelf
-toevoegt via **Settings > User Management** kunnen inloggen (max. 25). Voor eigen
-gebruik hoef je hier niets voor te doen — je eigen account (de eigenaar van de app)
-werkt automatisch.
+### 2. Cloudflare Worker aanmaken (verbergt je Client Secret)
 
-Twijfel je of de Redirect URI klopt? Klik **Instellingen** in de app — daar staat
-de exacte URI met een kopieerknop, zodat je nooit met de hand moet overtypen.
+1. Ga naar https://dash.cloudflare.com en maak een gratis account (of log in).
+2. **Workers & Pages** > **Create** > **Create Worker**. Geef een naam, bv.
+   `spotify-event-proxy`, en klik **Deploy** (de standaard "Hello World" code).
+3. Klik **Edit code**. Verwijder alle code en plak de inhoud van
+   [`cloudflare-worker.js`](cloudflare-worker.js) uit deze repo. Klik **Deploy**.
+4. Ga naar de Worker se **Settings** > **Variables and Secrets**. Voeg twee
+   secrets toe:
+   - `SPOTIFY_CLIENT_ID` = je Client ID van stap 1
+   - `SPOTIFY_CLIENT_SECRET` = je Client Secret van stap 1
+5. Kopieer de URL van je Worker bovenaan de pagina, bv.
+   `https://spotify-event-proxy.jouwnaam.workers.dev`.
 
-## Lokaal draaien (optioneel)
+### 3. Worker-URL koppelen aan de site
 
-Wil je de app toch lokaal draaien in plaats van via GitHub Pages? Open een terminal
-in deze map en start `python3 -m http.server 8888`, open dan
-http://127.0.0.1:8888/ en voeg die URI ook toe als Redirect URI in het Spotify
-dashboard.
+1. Open https://breugelmansd.github.io/spotify-event-playlists/
+2. Klik **Instellingen** rechtsboven.
+3. Plak de Worker-URL uit stap 2 en klik **Opslaan**.
+
+Klaar — de site werkt nu, voor jou en voor iedereen die de link opent, zonder
+dat iemand ooit hoeft in te loggen.
 
 ## Gebruik
 
 1. Kies één of meerdere categorieën, en/of typ je eigen thema (bv. "jaren 20 gala",
    "beachclub ibiza", "kerstdiner").
 2. Kies eventueel een energieniveau (rustig achtergrond / gezellig / dansbaar).
-3. Klik **Zoek playlists**. De app doet meerdere zoekopdrachten op Spotify, combineert
-   de resultaten en sorteert op relevantie + aantal volgers, en toont de beste 12
-   playlists met een mini-player en een link om ze direct in Spotify te openen.
+3. Klik **Zoek playlists**. Je krijgt de beste 12 playlists te zien, gesorteerd op
+   relevantie en aantal volgers, elk met een mini-player en een link om direct in
+   Spotify te openen.
 
 ## Technische achtergrond
 
-Spotify heeft begin 2026 hun API sterk beperkt: "Featured Playlists" en "Category's
-Playlists" (de officiële curatie-endpoints) zijn niet meer beschikbaar voor nieuwe
-apps. Deze app gebruikt daarom de gewone Search API met een set slim samengestelde
-zoektermen per categorie, en compenseert de lagere limiet per zoekopdracht (max. 10
-resultaten) door meerdere varianten te combineren en te herrangschikken op basis van
-hoe vaak een playlist terugkomt en het aantal volgers.
-
-Inloggen gebeurt via OAuth Authorization Code + PKCE — er is geen client secret
-nodig, alles gebeurt in de browser. Tokens worden lokaal in `localStorage` bewaard.
+- **Geen login**: de app gebruikt Spotify's "Client Credentials"-methode
+  (app-niveau toegang tot publieke catalogusdata), niet een persoonlijke login.
+  Dat betekent ook dat er geen toegang is tot iemands account of persoonlijke
+  playlists — enkel zoeken in Spotify's publieke catalogus.
+- **Waarom een Worker nodig is**: Client Credentials vereist een Client Secret.
+  Die mag nooit in publieke website-code staan (iedereen zou hem kunnen
+  overnemen), dus houdt de Worker dat geheim veilig op de server en geeft enkel
+  zoekresultaten door.
+- Spotify heeft begin 2026 hun API beperkt: "Featured Playlists" en "Category's
+  Playlists" (de officiële curatie-endpoints) bestaan niet meer voor nieuwe apps.
+  Deze app compenseert door meerdere slim samengestelde zoekopdrachten per
+  categorie te combineren en te herrangschikken op relevantie + populariteit.
+- **Bekende beperking**: de Worker-URL staat (indirect) in de broncode van deze
+  publieke repo. Iemand die de URL kent, kan er in theorie los van de website
+  gebruik van maken en zo jouw Spotify-API-quota verbruiken. Voor persoonlijk/
+  informeel gebruik is dat risico verwaarloosbaar (Cloudflare's gratis laag
+  staat 100.000 requests/dag toe, en je kan de Client Secret altijd vernieuwen
+  in het Spotify dashboard als dat ooit nodig zou zijn).
