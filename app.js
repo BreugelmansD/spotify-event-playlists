@@ -39,12 +39,23 @@ function showStatus(msg) {
   statusArea.textContent = msg;
 }
 
-// ---------- API base storage ----------
+// ---------- Settings storage ----------
+const DEFAULT_MIN_FOLLOWERS = 5000;
+
 function getApiBase() {
   return (localStorage.getItem("api_base") || "").replace(/\/+$/, "");
 }
 function setApiBase(url) {
   localStorage.setItem("api_base", url.trim().replace(/\/+$/, ""));
+}
+
+function getMinFollowers() {
+  const stored = localStorage.getItem("min_followers");
+  return stored === null ? DEFAULT_MIN_FOLLOWERS : Number(stored);
+}
+function setMinFollowers(value) {
+  const num = Number(value);
+  localStorage.setItem("min_followers", Number.isFinite(num) && num >= 0 ? num : DEFAULT_MIN_FOLLOWERS);
 }
 
 function updateSetupUI() {
@@ -145,8 +156,16 @@ async function runSearch() {
     return fb - fa;
   });
 
-  renderResults(details.slice(0, 12));
-  showStatus("");
+  const minFollowers = getMinFollowers();
+  const filtered = details.filter((pl) => (pl.followers?.total || 0) >= minFollowers);
+
+  if (filtered.length === 0) {
+    showStatus(`Geen playlists gevonden met minstens ${minFollowers.toLocaleString("nl-BE")} volgers. Verlaag de drempel bij Instellingen of probeer een ander thema.`);
+    return;
+  }
+
+  renderResults(filtered.slice(0, 12));
+  showStatus(filtered.length < details.length ? `${details.length - filtered.length} playlist(s) weggefilterd wegens te weinig volgers.` : "");
 }
 
 function renderResults(playlists) {
@@ -227,8 +246,10 @@ function buildEnergyChips() {
 // ---------- Init ----------
 function init() {
   el("apiBaseInput").value = getApiBase();
-  el("saveApiBaseBtn").addEventListener("click", () => {
+  el("minFollowersInput").value = getMinFollowers();
+  el("saveSettingsBtn").addEventListener("click", () => {
     setApiBase(el("apiBaseInput").value);
+    setMinFollowers(el("minFollowersInput").value);
     updateSetupUI();
   });
 

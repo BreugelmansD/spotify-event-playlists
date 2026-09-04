@@ -17,7 +17,11 @@
     <p>Je hebt nog geen API-adres ingesteld. Zie <strong>README.md</strong> voor de eenmalige setup (~10 minuten).</p>
     <label>API-adres (je Cloudflare Worker URL)</label>
     <input id="apiBaseInput" type="text" placeholder="https://spotify-event-proxy.jouwnaam.workers.dev" />
-    <button id="saveApiBaseBtn" class="btn btn-primary">Opslaan</button>
+
+    <label style="margin-top:16px;">Minimum aantal volgers (filtert obscure/rommelige playlists eruit)</label>
+    <input id="minFollowersInput" type="number" min="0" step="1000" placeholder="5000" />
+
+    <button id="saveSettingsBtn" class="btn btn-primary" style="margin-top:16px;">Opslaan</button>
   </section>
 
   <section id="searchSection" class="card hidden">
