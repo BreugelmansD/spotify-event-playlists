@@ -53,6 +53,7 @@ let selectedGenres = new Set();
 let selectedEnergy = null;
 let allResults = [];
 let shownCount = 0;
+let searchFailures = 0;
 const PAGE_SIZE = 12;
 
 // ---------- DOM ----------
@@ -139,10 +140,18 @@ function buildQueries() {
 
 async function searchPlaylistsForQuery(query) {
   const params = new URLSearchParams({ q: query, type: "playlist", limit: "10" });
-  const res = await fetch(`${getApiBase()}/search?${params.toString()}`);
-  if (!res.ok) return [];
-  const data = await res.json();
-  return (data.playlists?.items || []).filter(Boolean);
+  try {
+    const res = await fetch(`${getApiBase()}/search?${params.toString()}`);
+    if (!res.ok) {
+      searchFailures++;
+      return [];
+    }
+    const data = await res.json();
+    return (data.playlists?.items || []).filter(Boolean);
+  } catch (e) {
+    searchFailures++;
+    return [];
+  }
 }
 
 async function fetchPlaylistDetails(id) {
@@ -161,6 +170,7 @@ async function runSearch() {
   resultsEl.innerHTML = "";
   showStatus(`Zoeken op Spotify (${queries.length} zoekopdrachten)...`);
 
+  searchFailures = 0;
   const hitCounts = new Map();
   const stubs = new Map();
   for (const query of queries) {
@@ -175,6 +185,11 @@ async function runSearch() {
     .map((id) => ({ id, hits: hitCounts.get(id), stub: stubs.get(id) }))
     .sort((a, b) => b.hits - a.hits)
     .slice(0, 48);
+
+  if (candidates.length === 0 && searchFailures > 0) {
+    showStatus("Kon Spotify niet bereiken. Controleer je internet en het API-adres bij Instellingen.");
+    return;
+  }
 
   if (candidates.length === 0) {
     showStatus("Geen playlists gevonden. Probeer een ander thema of categorie, of controleer je API-adres bij Instellingen.");
