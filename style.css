@@ -186,3 +186,34 @@ main {
   border-radius: 8px;
   display: block;
 }
+
+#minTracksSelect {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: #0f0f0f;
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.result-card .cover { display: block; }
+.result-card .cover-empty { width: 100%; aspect-ratio: 1; background: #0f0f0f; }
+.result-body h3 a { color: var(--text); text-decoration: none; }
+.result-body h3 a:hover { text-decoration: underline; }
+.result-body h3 { margin-bottom: 12px; }
+.result-actions { margin-bottom: 0; }
+.result-actions a { flex: 1; }
+
+.fav-btn { font-size: 1.1rem; padding: 6px 14px; }
+.fav-btn.active { color: #f5c518; border-color: #f5c518; }
+
+.fav-header { display: flex; align-items: center; justify-content: space-between; }
+.fav-header h2 { margin: 0; font-size: 1.1rem; }
+.fav-list { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
+.fav-item { display: flex; align-items: center; gap: 12px; }
+.fav-item img, .cover-empty.small { width: 44px; height: 44px; border-radius: 6px; object-fit: cover; background: #0f0f0f; }
+.fav-item a { flex: 1; color: var(--text); text-decoration: none; font-size: 0.95rem; }
+.fav-item a:hover { text-decoration: underline; }
+
+.more-wrap { text-align: center; margin-top: 24px; }

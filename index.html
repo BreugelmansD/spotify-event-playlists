@@ -43,12 +43,30 @@
       <button class="chip" data-energy="dansbaar">Dansbaar / feest</button>
     </div>
 
+    <label class="field-label">Minimale lengte playlist</label>
+    <select id="minTracksSelect">
+      <option value="0">Maakt niet uit</option>
+      <option value="30">Minstens 30 nummers (~2 uur)</option>
+      <option value="60">Minstens 60 nummers (~4 uur)</option>
+      <option value="100">Minstens 100 nummers (~6 uur)</option>
+    </select>
+
     <button id="searchBtn" class="btn btn-primary btn-large">Zoek playlists</button>
+  </section>
+
+  <section id="favoritesSection" class="card hidden">
+    <div class="fav-header">
+      <h2>⭐ Mijn shortlist</h2>
+      <button id="copyFavsBtn" class="btn btn-ghost">Kopieer links</button>
+    </div>
+    <div id="favorites" class="fav-list"></div>
   </section>
 
   <section id="statusArea" class="status hidden"></section>
 
   <section id="results" class="results-grid"></section>
+
+  <div class="more-wrap"><button id="moreBtn" class="btn btn-ghost hidden">Toon meer</button></div>
 </main>
 
 <script src="app.js"></script>

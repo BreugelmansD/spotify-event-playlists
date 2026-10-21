@@ -51,6 +51,9 @@ const ENERGY_MODIFIERS = {
 let selectedCategories = new Set();
 let selectedGenres = new Set();
 let selectedEnergy = null;
+let allResults = [];
+let shownCount = 0;
+const PAGE_SIZE = 12;
 
 // ---------- DOM ----------
 const el = (id) => document.getElementById(id);
@@ -171,7 +174,7 @@ async function runSearch() {
   const candidates = [...hitCounts.keys()]
     .map((id) => ({ id, hits: hitCounts.get(id), stub: stubs.get(id) }))
     .sort((a, b) => b.hits - a.hits)
-    .slice(0, 24);
+    .slice(0, 48);
 
   if (candidates.length === 0) {
     showStatus("Geen playlists gevonden. Probeer een ander thema of categorie, of controleer je API-adres bij Instellingen.");
@@ -199,46 +202,125 @@ async function runSearch() {
   });
 
   const minFollowers = getMinFollowers();
-  const filtered = details.filter((pl) => (pl.followers?.total || 0) >= minFollowers);
+  const minTracks = Number(el("minTracksSelect").value) || 0;
+  const filtered = details.filter(
+    (pl) => (pl.followers?.total || 0) >= minFollowers && (pl.items?.total || 0) >= minTracks
+  );
 
   if (filtered.length === 0) {
-    showStatus(`Geen playlists gevonden met minstens ${minFollowers.toLocaleString("nl-BE")} volgers. Verlaag de drempel bij Instellingen of probeer een ander thema.`);
+    showStatus("Geen playlists gevonden die aan je filters voldoen. Kies een kortere minimale lengte, verlaag het minimum aantal volgers bij Instellingen, of probeer een ander thema.");
     return;
   }
 
-  renderResults(filtered.slice(0, 12));
-  showStatus(filtered.length < details.length ? `${details.length - filtered.length} playlist(s) weggefilterd wegens te weinig volgers.` : "");
+  allResults = filtered;
+  shownCount = 0;
+  renderMore();
+  showStatus(filtered.length < details.length ? `${details.length - filtered.length} playlist(s) weggefilterd door je filters.` : "");
 }
 
-function renderResults(playlists) {
-  resultsEl.innerHTML = "";
-  playlists.forEach((pl) => {
-    const img = pl.images?.[0]?.url || "";
-    const followers = pl.followers?.total;
-    const owner = pl.owner?.display_name || pl.owner?.id || "";
-    const trackCount = pl.items?.total;
-
-    const card = document.createElement("div");
-    card.className = "result-card";
-    card.innerHTML = `
-      ${img ? `<img src="${img}" alt="${escapeHtml(pl.name)}" loading="lazy" />` : ""}
-      <div class="result-body">
-        <h3>${escapeHtml(pl.name || "Naamloze playlist")}</h3>
-        <div class="result-meta">
-          ${owner ? `door ${escapeHtml(owner)}` : ""}
-          ${trackCount ? ` · ${trackCount} tracks` : ""}
-          ${followers != null ? ` · ${followers.toLocaleString("nl-BE")} volgers` : ""}
-        </div>
-        <div class="result-actions">
-          <a class="btn btn-primary" href="${pl.external_urls?.spotify}" target="_blank" rel="noopener">Open in Spotify</a>
-        </div>
-        <div class="embed-wrap">
-          <iframe src="https://open.spotify.com/embed/playlist/${pl.id}?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        </div>
-      </div>
-    `;
-    resultsEl.appendChild(card);
+function renderMore() {
+  allResults.slice(shownCount, shownCount + PAGE_SIZE).forEach((pl) => {
+    resultsEl.appendChild(buildResultCard(pl));
   });
+  shownCount = Math.min(shownCount + PAGE_SIZE, allResults.length);
+  el("moreBtn").classList.toggle("hidden", shownCount >= allResults.length);
+  el("moreBtn").textContent = `Toon meer (${allResults.length - shownCount} over)`;
+}
+
+function buildResultCard(pl) {
+  const img = pl.images?.[0]?.url || "";
+  const name = pl.name || "Naamloze playlist";
+  const url = pl.external_urls?.spotify || `https://open.spotify.com/playlist/${pl.id}`;
+
+  const card = document.createElement("div");
+  card.className = "result-card";
+  card.innerHTML = `
+    <a class="cover" href="${escapeHtml(url)}" target="_blank" rel="noopener">
+      ${img ? `<img src="${escapeHtml(img)}" alt="" loading="lazy" />` : '<div class="cover-empty"></div>'}
+    </a>
+    <div class="result-body">
+      <h3><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(name)}</a></h3>
+      <div class="result-actions">
+        <a class="btn btn-primary" href="${escapeHtml(url)}" target="_blank" rel="noopener">Open in Spotify</a>
+        <button class="btn btn-ghost fav-btn" title="Bewaar in shortlist"></button>
+      </div>
+    </div>
+  `;
+
+  const favBtn = card.querySelector(".fav-btn");
+  const refresh = () => {
+    const isFav = isFavorite(pl.id);
+    favBtn.textContent = isFav ? "★" : "☆";
+    favBtn.classList.toggle("active", isFav);
+  };
+  favBtn.addEventListener("click", () => {
+    toggleFavorite({ id: pl.id, name, url, img });
+    refresh();
+  });
+  refresh();
+  return card;
+}
+
+// ---------- Favorites (shortlist) ----------
+function getFavorites() {
+  try {
+    return JSON.parse(localStorage.getItem("favorites") || "[]");
+  } catch (e) {
+    return [];
+  }
+}
+function saveFavorites(list) {
+  try {
+    localStorage.setItem("favorites", JSON.stringify(list));
+  } catch (e) {
+    // opslag niet beschikbaar (bv. privévenster): shortlist blijft dan enkel tijdelijk leeg
+  }
+}
+function isFavorite(id) {
+  return getFavorites().some((f) => f.id === id);
+}
+function toggleFavorite(fav) {
+  const list = getFavorites();
+  const idx = list.findIndex((f) => f.id === fav.id);
+  if (idx >= 0) list.splice(idx, 1);
+  else list.push(fav);
+  saveFavorites(list);
+  renderFavorites();
+}
+
+function renderFavorites() {
+  const list = getFavorites();
+  const grid = el("favorites");
+  grid.innerHTML = "";
+  el("favoritesSection").classList.toggle("hidden", list.length === 0);
+
+  list.forEach((fav) => {
+    const item = document.createElement("div");
+    item.className = "fav-item";
+    item.innerHTML = `
+      ${fav.img ? `<img src="${escapeHtml(fav.img)}" alt="" />` : '<div class="cover-empty small"></div>'}
+      <a href="${escapeHtml(fav.url)}" target="_blank" rel="noopener">${escapeHtml(fav.name)}</a>
+      <button class="btn btn-ghost" title="Verwijder uit shortlist">✕</button>
+    `;
+    item.querySelector("button").addEventListener("click", () => {
+      toggleFavorite(fav);
+      // sterretjes in de resultaten bijwerken
+      resultsEl.innerHTML = "";
+      allResults.slice(0, shownCount).forEach((pl) => resultsEl.appendChild(buildResultCard(pl)));
+    });
+    grid.appendChild(item);
+  });
+}
+
+async function copyFavorites() {
+  const text = getFavorites().map((f) => `${f.name}\n${f.url}`).join("\n\n");
+  try {
+    await navigator.clipboard.writeText(text);
+    el("copyFavsBtn").textContent = "Gekopieerd!";
+  } catch (e) {
+    el("copyFavsBtn").textContent = "Kopiëren mislukt";
+  }
+  setTimeout(() => (el("copyFavsBtn").textContent = "Kopieer links"), 1500);
 }
 
 function escapeHtml(str) {
@@ -300,6 +382,9 @@ function init() {
   });
 
   el("searchBtn").addEventListener("click", runSearch);
+  el("moreBtn").addEventListener("click", renderMore);
+  el("copyFavsBtn").addEventListener("click", copyFavorites);
+  renderFavorites();
 
   buildMultiSelectChips("categoryChips", Object.keys(CATEGORIES), selectedCategories);
   buildMultiSelectChips("genreChips", Object.keys(GENRES), selectedGenres);
