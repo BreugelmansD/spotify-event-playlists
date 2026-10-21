@@ -232,18 +232,21 @@ function buildResultCard(pl) {
   const name = pl.name || "Naamloze playlist";
   const url = pl.external_urls?.spotify || `https://open.spotify.com/playlist/${pl.id}`;
 
+  const appUrl = `spotify:playlist:${pl.id}`;
+
   const card = document.createElement("div");
   card.className = "result-card";
   card.innerHTML = `
-    <a class="cover" href="${escapeHtml(url)}" target="_blank" rel="noopener">
+    <a class="cover" href="${escapeHtml(appUrl)}">
       ${img ? `<img src="${escapeHtml(img)}" alt="" loading="lazy" />` : '<div class="cover-empty"></div>'}
     </a>
     <div class="result-body">
-      <h3><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(name)}</a></h3>
+      <h3><a href="${escapeHtml(appUrl)}">${escapeHtml(name)}</a></h3>
       <div class="result-actions">
-        <a class="btn btn-primary" href="${escapeHtml(url)}" target="_blank" rel="noopener">Open in Spotify</a>
+        <a class="btn btn-primary" href="${escapeHtml(appUrl)}">Open in Spotify-app</a>
         <button class="btn btn-ghost fav-btn" title="Bewaar in shortlist"></button>
       </div>
+      <a class="web-link" href="${escapeHtml(url)}" target="_blank" rel="noopener">of open in webspeler</a>
     </div>
   `;
 
@@ -299,7 +302,7 @@ function renderFavorites() {
     item.className = "fav-item";
     item.innerHTML = `
       ${fav.img ? `<img src="${escapeHtml(fav.img)}" alt="" />` : '<div class="cover-empty small"></div>'}
-      <a href="${escapeHtml(fav.url)}" target="_blank" rel="noopener">${escapeHtml(fav.name)}</a>
+      <a href="spotify:playlist:${escapeHtml(fav.id)}">${escapeHtml(fav.name)}</a>
       <button class="btn btn-ghost" title="Verwijder uit shortlist">✕</button>
     `;
     item.querySelector("button").addEventListener("click", () => {
