@@ -76,8 +76,10 @@ function showStatus(msg) {
 // ---------- Settings storage ----------
 const DEFAULT_MIN_FOLLOWERS = 5000;
 
+const DEFAULT_API_BASE = "https://spotify-event-proxy.breugelmansdimi.workers.dev";
+
 function getApiBase() {
-  return (localStorage.getItem("api_base") || "").replace(/\/+$/, "");
+  return (localStorage.getItem("api_base") || DEFAULT_API_BASE).replace(/\/+$/, "");
 }
 function setApiBase(url) {
   localStorage.setItem("api_base", url.trim().replace(/\/+$/, ""));
