@@ -220,3 +220,16 @@ main {
 
 .web-link { display: block; margin-top: 10px; font-size: 0.8rem; color: var(--text-muted); text-align: center; }
 .web-link:hover { color: var(--text); }
+
+.result-card .cover { position: relative; }
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--green);
+  color: #06210f;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 999px;
+}

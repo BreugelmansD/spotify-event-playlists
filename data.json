@@ -1,0 +1,3436 @@
+{
+ "categories": [
+  "Chic diner",
+  "Cocktailparty",
+  "Netwerkevent / receptie",
+  "Bruiloft - ceremonie",
+  "Bruiloft - feest",
+  "Verjaardagsfeest",
+  "Achtergrond concert",
+  "Lounge / relax",
+  "Gala / award show",
+  "Zomerse borrel / terras",
+  "Kerst / eindejaarsfeest",
+  "Brunch / lunch",
+  "Beurs / productlancering",
+  "Wijnproeverij / degustatie",
+  "Modeshow / fashion event",
+  "Opening / vernissage",
+  "Vintage thema (jaren 20-80)",
+  "Kinderfeest / familiefeest",
+  "Halloween feest",
+  "Afterparty / late night",
+  "Seminarie / vergadering",
+  "Wellness / spa"
+ ],
+ "genres": [
+  "Jazz",
+  "Lounge / Chill",
+  "Klassiek / Instrumentaal",
+  "Pop",
+  "House / Electronic",
+  "R&B / Soul",
+  "Latin",
+  "Funk / Disco",
+  "Rock",
+  "Hip-Hop",
+  "Akoestisch",
+  "Wereldmuziek"
+ ],
+ "energies": {
+  "zeer_rustig": "Heel rustig",
+  "rustig": "Rustig achtergrond",
+  "gezellig": "Gezellig",
+  "energiek": "Energiek",
+  "dansbaar": "Dansbaar / feest"
+ },
+ "playlists": [
+  {
+   "id": "6vDGVr652ztNWKZuHvsFvx",
+   "name": "Deep House 2026",
+   "desc": "Deep House, House & Electronic Dance Music in 2026. Updated weekly!",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c7ef202530a143cfa5f88e055",
+   "followers": 8084635,
+   "tracks": 162,
+   "categories": [],
+   "genres": [
+    "House / Electronic"
+   ],
+   "energies": [
+    "dansbaar"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "3C64V048fGyQfCjmu9TIGA",
+   "name": "90s HITS | TOP 100 SONGS",
+   "desc": "The best of the 1990s classics, NYE, 90s throwbacks, New Years, 90s R&B, New Years Eve, 90s Pop, Party, 90s Songs, 90s Music, 90s Alternative and more from TLC,",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84c47d6a6244a43c585ad705d2",
+   "followers": 2576117,
+   "tracks": 146,
+   "categories": [
+    "Kerst / eindejaarsfeest"
+   ],
+   "genres": [
+    "Pop",
+    "R&B / Soul"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6P98cP6nMIlk4AWB4wPMJf",
+   "name": "LOUNGE MUSIC 2026",
+   "desc": "Lounge chillout music hits of 2026. Want more chill? See our Chill House Hits playlist!",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c8a8fc555493a58db7da9fc94",
+   "followers": 2422468,
+   "tracks": 106,
+   "categories": [],
+   "genres": [
+    "House / Electronic",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "energiek",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2oKgQmWLlAgCqw0YD8SvEg",
+   "name": "The Best of Michael Jackson",
+   "desc": "Now playing the greatest hits and dance-floor favorites from The King of Pop! From “Billie Jean” to “Bad,” “Rock With You” to “You Rock My World,” you’ll find y",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c845fc7b418ddd0e9a7d6204e",
+   "followers": 1843501,
+   "tracks": 45,
+   "categories": [],
+   "genres": [
+    "Pop",
+    "Rock",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2OxJrcgA6AQGk1sSQ8ZZ2a",
+   "name": "Restaurant Background Music 🍸 chill covers & saxophone lounge",
+   "desc": "Step into a lounge-like oasis with restaurant music, the ultimate playlist that blends chill covers with the sultry sounds of saxophone house. Perfect for an el",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8415de05d57b81adecf3c97abe",
+   "followers": 1761799,
+   "tracks": 315,
+   "categories": [
+    "Lounge / relax"
+   ],
+   "genres": [
+    "House / Electronic",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "4ZB8LNvjTqxyUZPzHyYYJq",
+   "name": "Remixes 2026 🔥 Best Popular Songs Remixed 🔥 Best Remixes & EDM Hits 2025",
+   "desc": "Remixes of popular songs (the latest worldwide Top Hits 2025 & more). The best songs, DJ Music, the best artists & the best DJ's! These Words - Badger, Makeba R",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8478f12cfbb3f89c6d4e448aca",
+   "followers": 1109470,
+   "tracks": 292,
+   "categories": [],
+   "genres": [
+    "House / Electronic",
+    "Pop",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5h1oEk4W9KVMHkOd8WWWlC",
+   "name": "DEEP HOUSE 2026  🔴 Electronic Dance Hits, Covers & Remixes for Gym, Workout, Running, Sport, Car ",
+   "desc": "The best Deep House & Electronic Dance Mix of 2026. Updated weekly. Deep House Hits, Melodic House, Afro House, Tech House, Lounge, Summer, Relax, Ibiza , Remix",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84cb49bc61dc5b4289d46b2849",
+   "followers": 1012521,
+   "tracks": 100,
+   "categories": [],
+   "genres": [
+    "House / Electronic",
+    "Lounge / Chill",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "4FhyjgN9pPGzTbUVuzqOUW",
+   "name": "IBIZA Summer Mix 2026 🌴 Deep House - Tech House - Afrohouse - Sunset Vibes - Beach Lounge - Chillout",
+   "desc": "Deep House & Lounge Music, Cafe del Marina, lounge hits. Chillout, Summer Chill Hits. Beach Music - New Years music - Chill music - Cafe del mar ibiza - Hotel C",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84b0c7e977e3ec4b1e07b51164",
+   "followers": 1000370,
+   "tracks": 357,
+   "categories": [],
+   "genres": [
+    "House / Electronic",
+    "Lounge / Chill",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "energiek",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2bWtVAl9VX45x9gAUPiVOF",
+   "name": "Halloween Playlist 2026🎃",
+   "desc": "Halloween Songs - Best Spooky Music Ultimate Playlist👻: Popular hits, classic party songs, holiday scary vibes, Autumn Fall, ghost, witch lofi costume instrumen",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8482505a9dbed9a2cc108a3bc7",
+   "followers": 889989,
+   "tracks": 153,
+   "categories": [
+    "Halloween feest"
+   ],
+   "genres": [
+    "Klassiek / Instrumentaal",
+    "Pop"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "345eEKyGNyluygzMsS1n1H",
+   "name": "Restaurant Lounge Music 2026 🍸 Background Music 🍸 Dinner Chill",
+   "desc": "Restaurant Playlist is the perfect relaxing and cozy mix of calm and cosy dinner songs. It's perfect for your restaurant guests, or for your friday night dinner",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84393b4ea4e7611b24ca783db6",
+   "followers": 870025,
+   "tracks": 434,
+   "categories": [
+    "Lounge / relax"
+   ],
+   "genres": [
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1h0CEZCm6IbFTbxThn6Xcs",
+   "name": "Best Classical Music",
+   "desc": "Essential tracks from the most notable classical works ever recorded - both old and new. Featuring Mozart, Beethoven, Bach, Chopin, Satie, Brahms, Vivaldi, Max ",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da844ed1546759ae6e2e1256cfb0",
+   "followers": 855907,
+   "tracks": 230,
+   "categories": [],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "7JabddFr3Q6JPsND4v9Swf",
+   "name": "Relax & Chill 2026 🌴",
+   "desc": "The perfect Chill music for relaxing in a lounge or at the beach! 🌴 Relaxing - Relaxed - Zen - Summer - Winter - Laid-back - ibiza - Tranquility - Relajar - Tra",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84cf33878980e0ae7b4b6e5381",
+   "followers": 822681,
+   "tracks": 267,
+   "categories": [],
+   "genres": [
+    "House / Electronic",
+    "Lounge / Chill",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6zCID88oNjNv9zx6puDHKj",
+   "name": "Lofi Study 2026",
+   "desc": "Lofi Study 2026 is a playlist composed of the best lofi hip hop music, perfect to accompany those long study or work sessions. Click here if you need lofi to sl",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce8fcb214bcd7d054018d9fe4",
+   "followers": 628708,
+   "tracks": 237,
+   "categories": [],
+   "genres": [
+    "Hip-Hop"
+   ],
+   "energies": [
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "7l4sdtYsHVypensTVz8rb3",
+   "name": "Popular Christmas Songs ❄️🎄",
+   "desc": "the most popular and best songs to make Christmas even more special",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e02119e4094f07a8123b471ac1dab67616d00001e026d88028a85c771f37374c8eaab67616d00001e02c0862332847213b151ffab31ab67616d00001e02f255b4346b93e3397e96d40f",
+   "followers": 627381,
+   "tracks": 67,
+   "categories": [
+    "Kerst / eindejaarsfeest"
+   ],
+   "genres": [
+    "Pop"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "5KJDMJe9EJ7QRz8FG2MIpI",
+   "name": "BEST HITS 2026 🔥 Popular Songs 🎵 Top Music Hits 🎵 ",
+   "desc": "Best Hits 2026 | Popular Songs 2026 | Top Music Hits | Today Top Hits | Viral Hits | Radio Hits 2025/2026 | Summer Music Mix 2026 | Best Of 2026 | Summer Vibes ",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84c9571da656091290878b1a3b",
+   "followers": 589062,
+   "tracks": 143,
+   "categories": [],
+   "genres": [
+    "House / Electronic",
+    "Pop"
+   ],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2dFYbLO2e91eiXispfv616",
+   "name": "PIANO COVERS 2026 🎹 relaxing versions of popular songs",
+   "desc": "Famous hits, peaceful songs & pop music in a relaxed mix of calming instrumental remakes for background, quiz, sleeping, dining, studying, working and more.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84b84a4b219c79276f229e321b",
+   "followers": 575575,
+   "tracks": 986,
+   "categories": [],
+   "genres": [
+    "Klassiek / Instrumentaal",
+    "Pop"
+   ],
+   "energies": [
+    "energiek",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5cwPclg5ZtafoBPWgZMHMb",
+   "name": "classical music to study or sleep to",
+   "desc": "quiet instrumental songs for reading in bed or falling asleep (picture: \"Ophelia\" by Friedrich Heyser)",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c3dcdcb8727cd0038e662f4c4",
+   "followers": 526553,
+   "tracks": 217,
+   "categories": [],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6NH3haTkVIgFaqh7vVc6Dn",
+   "name": "Lounge Music 2026 🍹 Background Beats",
+   "desc": "Pre party, dinner, after party? Bar cocktails, mingle & chillout to mellow covers, beats & tropical house music, downtempo hits & luxury vibes.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84e9edc2a96ca510f13f30637c",
+   "followers": 435353,
+   "tracks": 276,
+   "categories": [
+    "Cocktailparty"
+   ],
+   "genres": [
+    "House / Electronic",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek",
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5EsjbD20Kzq8ONeJyHJoW9",
+   "name": "Spa Music 2026🍃",
+   "desc": "relaxing zen music",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d08f0ee20a9bdd0a97ecf4ea",
+   "followers": 395349,
+   "tracks": 168,
+   "categories": [
+    "Wellness / spa"
+   ],
+   "genres": [],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "3MelsVnZV5g03wyiJsybHk",
+   "name": "dark academia ☕️📜 studying and reading instrumentals",
+   "desc": "dark academia (study and reading) studying & reading instrumentals: Classical piano music inspired by the dark academia TikTok trend. The playlist is based on t",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84932313e5571ed8553403d7ad",
+   "followers": 350600,
+   "tracks": 265,
+   "categories": [],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "5GrWuliLODvT0KtZTDhYKT",
+   "name": "Jazz House - Wine Bar | Cocktail Bar | Jazz bar",
+   "desc": "Jazzy House for Rooftop Restaurant Music, luxury jazz dinner music for wine nights, date night, or luxury hotel lounge music. Perfect for jazz music bar, coctel",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce0abf9b3aac06158a3f5c862",
+   "followers": 349799,
+   "tracks": 163,
+   "categories": [
+    "Cocktailparty",
+    "Wijnproeverij / degustatie"
+   ],
+   "genres": [
+    "House / Electronic",
+    "Jazz",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6VjXyFH9Z5HlGPAjRBKR32",
+   "name": "Ibiza Summer Mix 2026 🍓 Best Of Tropical Deep House Music Chill Out Mix",
+   "desc": "Summer Mix | Best Of Kygo & Friends | Tropical & Deep House Music Chill Out Mix Playlist. Label Demos ● wavemusicllc@gmail.com",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84de9cb0c5bc0d9104ff46ce0a",
+   "followers": 344974,
+   "tracks": 450,
+   "categories": [
+    "Zomerse borrel / terras"
+   ],
+   "genres": [
+    "House / Electronic",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6sWNtqsq1ip2quKm6U3UvD",
+   "name": "Piano Covers of Famous Songs",
+   "desc": "Relaxing instrumental versions of popular hits and best songs 2026. Perfect calming peaceful background, study, dinner, chilling, resturang piano, sleep music f",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ef3a392962435382fbeff0ee",
+   "followers": 344687,
+   "tracks": 612,
+   "categories": [
+    "Achtergrond concert"
+   ],
+   "genres": [
+    "Akoestisch",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill",
+    "Pop"
+   ],
+   "energies": [
+    "energiek",
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5vVSfOsF8YRueAI1dOI0Lh",
+   "name": "Cozy Coffee Shop ☕ Jazz in the Background",
+   "desc": "Soft instrumental Jazz for all your activities.",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cc089d11c70e4089ba3e6ac56",
+   "followers": 338290,
+   "tracks": 116,
+   "categories": [],
+   "genres": [
+    "Jazz",
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "4QgK7lBc41l29ApFyNB5xw",
+   "name": "Whitney Houston Greatest Hits",
+   "desc": "The Queen of Soul Whitney Houston is the most awarded and best-selling female artist of all time. Fantastic soul, r’n’b,pop and gospel singer with many #1’s on ",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cacffce17db851a1dec095cf6",
+   "followers": 315180,
+   "tracks": 62,
+   "categories": [],
+   "genres": [
+    "Pop",
+    "R&B / Soul"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "0aSvbpDVaEBTv9dPiXrndk",
+   "name": "Disco Hits 80 90",
+   "desc": "Best Disco Funk 70s 80s 90s 2000s ... Click Here For Disco Love From Daddy Cool to Born To Be Alive... Le Freak to Barbie Girl... YMCA to Freed From Desire... S",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84949b7d553c6a14d2245b4a4d",
+   "followers": 312849,
+   "tracks": 336,
+   "categories": [],
+   "genres": [
+    "Funk / Disco"
+   ],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2AIyLES2xJfPa6EOxmKySl",
+   "name": "100 of the most famous classical music pieces 🎻 🎹 🎺",
+   "desc": "Top 100 classical music masterpieces everyone knows, but not everybody knows their titles. Includes Mozart, Beethoven, Chopin, Rossini, Tchaikovsky, Strauss, De",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cc412db80f63b7b43b38c52db",
+   "followers": 311414,
+   "tracks": 129,
+   "categories": [],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "04EKmJhBK8dLL6SONP5dyq",
+   "name": "Dance Hits 2000 - 2026 (Top 100) 🎉",
+   "desc": "Best Dance Music Hits to party your ass off from 2000s till Today!",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d7b6ee9826190e2835dbbc0b",
+   "followers": 308228,
+   "tracks": 108,
+   "categories": [
+    "Bruiloft - feest"
+   ],
+   "genres": [],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1P27ra5VqAizmkcUzVAvp2",
+   "name": "Kids Party Songs 2026 🎉",
+   "desc": "Kids Playlist.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84c39d503900a99b85178d3ac9",
+   "followers": 307469,
+   "tracks": 94,
+   "categories": [
+    "Kinderfeest / familiefeest"
+   ],
+   "genres": [],
+   "energies": [
+    "dansbaar"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "54NRTuvgDANNROlUkaU2Nc",
+   "name": "Cozy Fall Vibes 2026 🍁 acoustic, indie folk",
+   "desc": "Cozy Fall vibes for October 2026 🍁! A warm mix of acoustic, indie folk, and singer-songwriter favorites. Perfect for coffee mornings, quiet afternoons, and peac",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a0c505fa1ad72db81f0e4fc9",
+   "followers": 306296,
+   "tracks": 310,
+   "categories": [],
+   "genres": [
+    "Akoestisch"
+   ],
+   "energies": [
+    "gezellig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "74MCcW0dOTAVbshPVl3mUQ",
+   "name": "Kerst Hits Top 100 - Kerst Muziek 2026🎄",
+   "desc": "De beste kerstplaylist, kerstmuziek en beste kersthits voor onder de kerstboom. Best Christmas playlist, christmas hits & christmas music met o.a. Wham!, Mariah",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84532aced35e2fbc8d41361287",
+   "followers": 293460,
+   "tracks": 100,
+   "categories": [
+    "Kerst / eindejaarsfeest",
+    "Verjaardagsfeest"
+   ],
+   "genres": [],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "44RucnfyET0J81FrmRXOqx",
+   "name": "Bossa Nova Covers Popular Songs + 200 Hits",
+   "desc": "Bossa Nova Covers | Bossa Nova Covers of Popular Songs | Bossa Nova Background Music. A master collection of today’s favorite tracks reimagined with acoustic Br",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840a1d936b39215da6c1002d50",
+   "followers": 292850,
+   "tracks": 300,
+   "categories": [],
+   "genres": [
+    "Akoestisch",
+    "Pop",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "energiek",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "4Xv7w5RBLUz71sSzIs4C6b",
+   "name": "Acoustic Covers of Popular Songs",
+   "desc": "Pop covers with soft vocals, accompanied by acoustic guitar or piano. Catchy mix of new and classic hits. Perfect mix for studying, working, or relaxing.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c5a4a944c4368d16f13f2be93",
+   "followers": 288165,
+   "tracks": 376,
+   "categories": [],
+   "genres": [
+    "Akoestisch",
+    "Klassiek / Instrumentaal",
+    "Pop"
+   ],
+   "energies": [
+    "energiek",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "0Vfh7Hiif45z9LdmyX1gVF",
+   "name": "Dinner Chill Music 🍝🍷 2026",
+   "desc": "The #1 Dinner Playlist🥇 Soulful chilled vibes: Olivia Dean, Tom Misch, RAYE. Dinner with friends ♥️ Retro soul pop diner jazz lounge grooves soul food restauran",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84e8bbc72ff870b085e1215f7a",
+   "followers": 277232,
+   "tracks": 241,
+   "categories": [
+    "Chic diner"
+   ],
+   "genres": [
+    "Jazz",
+    "Lounge / Chill",
+    "Pop",
+    "R&B / Soul"
+   ],
+   "energies": [
+    "energiek",
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "61jNo7WKLOIQkahju8i0hw",
+   "name": "100 Greatest Rock Songs",
+   "desc": "100 Greatest Rock Songs // Best Rock Songs of All Time // Red Hot Chili Peppers // ACDC // Led Zeppelin // Black Sabbath // Rock 2000 // Rock Classics. Listen t",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c56f938015e3bcaa6892b4fd",
+   "followers": 267836,
+   "tracks": 124,
+   "categories": [],
+   "genres": [
+    "Rock"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "0erLbMzXD0U9xJUPlOeKrX",
+   "name": "CAFÉ DEL MAR / Lounge & Chill House 2026",
+   "desc": "Café del mar - Lounge - Sunset -Santiago - Musica Relajante - Mallorca - Ibiza - Deep House - Madrid - Barcelona - London - Chill Vibes - Berlin - Marbella - Ca",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8468389531d2756283e3a099f3",
+   "followers": 264935,
+   "tracks": 202,
+   "categories": [
+    "Cocktailparty",
+    "Lounge / relax"
+   ],
+   "genres": [
+    "House / Electronic",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "32HiyEXKoCYkxazhRNs1Mn",
+   "name": "Chill Relax 2026 ☀️ Lounge Chillout Playlist",
+   "desc": "Chill vibes ambiance electro house : la playlist de musique pour apéro, se détendre, ou chiller.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da843438b2d293f8c5bf499d535c",
+   "followers": 263838,
+   "tracks": 321,
+   "categories": [],
+   "genres": [
+    "House / Electronic",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "3xHirdSDYIrHOZ2gMjMmb1",
+   "name": "ADHD Dopamine House Music",
+   "desc": "Focus better with chill & deep house beats perfect for ADHD - Adhd focus | adhd study | adhd electronic | adhd hyperfocus | studying deep house | studying chill",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da846f5aad9bc769b5cc17a3dc66",
+   "followers": 239228,
+   "tracks": 212,
+   "categories": [],
+   "genres": [
+    "House / Electronic",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "659ULOqOfJqmX7bXYsIVAr",
+   "name": "REGGETON 2026 🔥🔥🔥 MIX REGGAETON 2026 HITS",
+   "desc": "Top Reggaeton 2026 ; Los éxitos de verano 2025 con todos el Reggaeton y música latina + lo nuevo 2026 con Bad Bunny, Jhay Cortez, Ozuna, Rauw Alejandro, Myke To",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8429e5aafb9bf73b0702a0c581",
+   "followers": 228008,
+   "tracks": 200,
+   "categories": [],
+   "genres": [
+    "Latin",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "0UJ5qDOZb1zlJJ23b54bRg",
+   "name": "Deep Sleep 2026 🟢  432 hz Healing Music",
+   "desc": "Peaceful ambient songs & frequencies for sleeping ~ Calming background tones & soothing surroundings to help you fall asleep ~ Good night ~ Sov gott <3",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da845ca522c79135a70cb206ebf6",
+   "followers": 219780,
+   "tracks": 468,
+   "categories": [],
+   "genres": [],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "0x5sdZSd4GbYmAucCshEsO",
+   "name": "Best Latino Hits 🔥",
+   "desc": "All best songs of your favourite latino artists : Shakira, Daddy Yankee, Enrique Iglesias, Bad Bunny, Carlos Vives and lots more ! Follow the account on Insta :",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8457e6396934881a152ef3b3cc",
+   "followers": 216338,
+   "tracks": 128,
+   "categories": [],
+   "genres": [
+    "Latin"
+   ],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "7DgPQwzEoUVfQYBiMLER9Z",
+   "name": "Top 100 Most Popular Rock Songs",
+   "desc": "Find our playlist with these keywords: classic rock hits - rock music playlist - iconic rock songs - legendary rock songs - greatest rock songs - rock playlist ",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d03769ab0755774baa9b7cf4",
+   "followers": 212973,
+   "tracks": 100,
+   "categories": [],
+   "genres": [
+    "Pop",
+    "Rock"
+   ],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "4lAmoS7H9HzPmelN7joKG6",
+   "name": "RESTAURANT MUSIC 2026 🍽 Dinner Background Songs",
+   "desc": "Dine, mingle, lounge cocktails, beach bar, café, cooking… Set the background mood with relaxing bossa nova & jazz versions of popular hits.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84acf3c80cde025d9ea1d3c041",
+   "followers": 193895,
+   "tracks": 649,
+   "categories": [
+    "Chic diner"
+   ],
+   "genres": [
+    "Jazz",
+    "Lounge / Chill",
+    "Pop",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "energiek",
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5S7r3GL0l5CWSxghwRDNqa",
+   "name": "Outsider House 2026 ☆ (Top 100)",
+   "desc": "Nostalgic Y2K House. Top 100: Outsider House; Musica Electronica ; Y2K ; Lo Fi House ; Gaming Playlist / demos @radiant.label",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da844c05aa3e59981d57ff08fa88",
+   "followers": 192502,
+   "tracks": 147,
+   "categories": [],
+   "genres": [
+    "House / Electronic"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "0PzTB0SzhsYdmq3lvb0zgv",
+   "name": "Coffee house | Koffie & Chill",
+   "desc": "Chill acoustic, mellow pop and singer-songwriter music for focus, relaxation, studying and working. Coffee house vibes and calm background music for a cozy café",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c804511f526d8acca578a6fc5",
+   "followers": 192001,
+   "tracks": 259,
+   "categories": [],
+   "genres": [
+    "Akoestisch",
+    "House / Electronic",
+    "Lounge / Chill",
+    "Pop"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "0QknRAZUpwPtM2dQIzAnAa",
+   "name": "Classical Study Music for Focus 🎻🎶",
+   "desc": "Best Classical Music for Relaxing Focus Working Reading Background Instrumental Classics. Peaceful Studying Playlist Listen to calming Classical Piano playlist ",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84490274beb31d3c613639793e",
+   "followers": 187192,
+   "tracks": 669,
+   "categories": [],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2IK9k9hcnIV6IWvbkZC0ov",
+   "name": "Soirée Hits 2026 : La Playlist Certifiée",
+   "desc": "Rends ta soirée d'Halloween inoubliable avec tous les hits pour danser jusqu'au petit matin ! 💃 Soirée Fête Night Party Before",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8468edd776d3571e6c1a4b38ab",
+   "followers": 184568,
+   "tracks": 158,
+   "categories": [
+    "Halloween feest"
+   ],
+   "genres": [],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5oYb3EYc6MNGw0YuhlSDMN",
+   "name": "Latino Vibes Hits 2026 🔥",
+   "desc": "Escape to a tropical paradise - press play and start the party! / Les sons les plus caliente pour danser : reggaeton, cubaton, salsa, bachata, samba, bossa nova",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84303fd469104f3ff1cf503880",
+   "followers": 178551,
+   "tracks": 200,
+   "categories": [],
+   "genres": [
+    "Latin",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "3We3LenpVndqS3rUCP0MeY",
+   "name": "R&B 2026 🔥 New R&B Hits / Top RnB Songs",
+   "desc": "best RNB songs of 2026 most popular trending today chill rnb music viral top 100 hottest pop rap mix latest neo soul sexy adult contemporary",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e02487cf85e240954e14e6a18b9ab67616d00001e02b92879e45761d711016476dfab67616d00001e02d65c4773bc5061fd27facc5bab67616d00001e02f8e91278eb81c22c1194fc6e",
+   "followers": 173866,
+   "tracks": 100,
+   "categories": [],
+   "genres": [
+    "Hip-Hop",
+    "Lounge / Chill",
+    "Pop",
+    "R&B / Soul"
+   ],
+   "energies": [
+    "energiek",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6PrUPPajcmqjmU9AXOsua8",
+   "name": "Club Beats 2026 🔥 EDM Dance & Bass - The best Club Mix and Club Music",
+   "desc": "Club Beats, EDM Dance & Bass Hits, Tracks for the night ... name it whatever you want! This is the ultimate playlist for all club-goers and night owls! Club Mus",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8404329351c55d1fbd3ae5bdca",
+   "followers": 166909,
+   "tracks": 284,
+   "categories": [
+    "Afterparty / late night"
+   ],
+   "genres": [
+    "House / Electronic"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "3v5CwIFBTkJ9SK421B83Qs",
+   "name": "ELEGANT JAZZ 🍷 Instrumental Music for a Fancy Dinner",
+   "desc": "fine dining classy cocktail party chill background piano trio luxury hotel cafe bar lounge romantic night relaxed evening elevator classics",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e021bce703dd76d9084b72c18b7ab67616d00001e02a0bd1b62ec259d779d5434c1ab67616d00001e02cef2c2aa6a0a4a900a0bb904ab67616d00001e02e4b710697361c296348e1c21",
+   "followers": 162278,
+   "tracks": 140,
+   "categories": [
+    "Chic diner",
+    "Lounge / relax"
+   ],
+   "genres": [
+    "Jazz",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "dansbaar",
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2s9R059mmdc8kz6lrUqZZd",
+   "name": "Coffee Shop Vibes ☕",
+   "desc": "Comforting coffee shop playlist for quiet mornings, slow sips, and background focus. ☕ lofi hip hop, jazz, chillhop, chill beats, jazzy beats, mellow beats, jaz",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da845d389d44b5a171546a3520c2",
+   "followers": 161215,
+   "tracks": 321,
+   "categories": [
+    "Seminarie / vergadering"
+   ],
+   "genres": [
+    "Hip-Hop",
+    "House / Electronic",
+    "Jazz",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5rdgRwdMskt1IJKjNf0VWQ",
+   "name": "Jazz Top 100 - Most Popular On Spotify - Best Jazz",
+   "desc": "100 of the most popular and most streamed / played jazz tracks on Spotify. Photo by Spencer Imbrock on Unsplash.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8427f353f690d9180d2c6aef6e",
+   "followers": 155333,
+   "tracks": 100,
+   "categories": [],
+   "genres": [
+    "Jazz",
+    "Pop"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "0M9XTOVylASJjMTu5ofuUi",
+   "name": "SPAIN SUMMER VIBES 🇪🇸",
+   "desc": "Let the spanish music take you to Spain’s beaches. Enjoy latino vibes, espanol rhythms and summer sounds from Ibiza and Mallorca. Perfect for vacation, party an",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8466e0de1bd710a11af210d985",
+   "followers": 151210,
+   "tracks": 111,
+   "categories": [],
+   "genres": [
+    "Latin",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "dansbaar"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "3vOpFtbXnFmFCKHAYGUlbk",
+   "name": "trap soul & R&B",
+   "desc": "Trap and R&B for late night bedroom vibes. Slow sensual trap soul and sexy rnb. Ft. Limi, Daniel Di Angelo, Azee.",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8474189a22cea6b78767eee761",
+   "followers": 146551,
+   "tracks": 90,
+   "categories": [],
+   "genres": [
+    "R&B / Soul"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "63sCiH22a44UxGge1gTuPi",
+   "name": "Chill Morning 🥐☕ Breakfast Music 2026",
+   "desc": "Good morning! Enjoy tasty, soulful and chilled music from Bruno Mars, Olivia Dean, Jungle, RAYE. Easy morning - wake up happy - breakfast music - chill pop – re",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c4d6cb4d7d0ab6a4ef942ae22",
+   "followers": 145513,
+   "tracks": 258,
+   "categories": [
+    "Brunch / lunch"
+   ],
+   "genres": [
+    "Jazz",
+    "Lounge / Chill",
+    "Pop",
+    "R&B / Soul"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "7i3J4zuK83YKf1QXy6Z0wy",
+   "name": "Party Mix 80s 90s 00s 10s 20s",
+   "desc": "A good mix of party songs of the last 40 years. Enjoy!",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84949e656f6203a07783a44ae9",
+   "followers": 144015,
+   "tracks": 347,
+   "categories": [
+    "Verjaardagsfeest"
+   ],
+   "genres": [],
+   "energies": [
+    "dansbaar"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2EQTXPTAajO16A55fae245",
+   "name": "victoria’s secret runway walk",
+   "desc": "",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c95cc633e8e7068abbc2d59b",
+   "followers": 139436,
+   "tracks": 195,
+   "categories": [
+    "Modeshow / fashion event"
+   ],
+   "genres": [],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "7dDJX06UClvROSRLl7vtNx",
+   "name": "Beach Lounge 2026 🌴 IBIZA Summer Chillout",
+   "desc": "Summer 2026 Beach Lounge Music, Ibiza, sunset vibes, Background Music, Pool Lounge, Hotel Lounge, Tropical chill house,Beach Party. For submissions: j-dosch@fre",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da848f3cab8cf3a807707e2dfa49",
+   "followers": 139137,
+   "tracks": 236,
+   "categories": [
+    "Lounge / relax"
+   ],
+   "genres": [
+    "House / Electronic",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "dansbaar",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5gWj5xviSHBlnSPmFpLFPJ",
+   "name": "Luxury Hotel Lounge",
+   "desc": "Soft and elegant background music, the perfect ambiance of a relaxed luxury hotel lounge.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84231738664e493527753e8ee9",
+   "followers": 138273,
+   "tracks": 354,
+   "categories": [
+    "Netwerkevent / receptie"
+   ],
+   "genres": [
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "75tpCkAq8iJogkzHn7q6AW",
+   "name": "Jazzy Restaurant Music | Luxury Hotel Lounge Music",
+   "desc": "music for restaurants and luxury hotel lounge music with old money background music. Jazz lounge chillout music with jazz piano, jazz house and chill lounge mus",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da844ddadbe773d347a3485e10ce",
+   "followers": 136144,
+   "tracks": 192,
+   "categories": [
+    "Chic diner",
+    "Cocktailparty",
+    "Lounge / relax",
+    "Wijnproeverij / degustatie"
+   ],
+   "genres": [
+    "House / Electronic",
+    "Jazz",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2t8P74P2FbdqrS0PJKefbL",
+   "name": "Bossa Nova Lounge 2026 🌴",
+   "desc": "The best of Bossa Nova 2026. Relaxing Brazilian jazz and soft bossa nova beats for a sophisticated atmosphere. Perfect for lounge, chill, and home relaxation. T",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da843590f66d4387e5f95916626f",
+   "followers": 135434,
+   "tracks": 236,
+   "categories": [
+    "Cocktailparty"
+   ],
+   "genres": [
+    "Jazz",
+    "Lounge / Chill",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "energiek",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5PQUa32eXGoYEek2ZqFGfc",
+   "name": "reading in a cozy library (no vocals)",
+   "desc": "pro-tip turn on rain background noise",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8492cb2429b568fec0a566e466",
+   "followers": 134634,
+   "tracks": 130,
+   "categories": [],
+   "genres": [],
+   "energies": [
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2tYBsYfEo7Lxi3CiVjI2L1",
+   "name": "Best Wedding Party Songs 🍾🎉",
+   "desc": "the the best wedding party songs and reception playlist mazel tov xo",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8449dde7437c1d8d89e6e0720a",
+   "followers": 131530,
+   "tracks": 183,
+   "categories": [
+    "Bruiloft - feest"
+   ],
+   "genres": [],
+   "energies": [
+    "dansbaar"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "43Q9LvUErcQvo4YzG2wd5k",
+   "name": "Lofi Morning | soft morning music to wake up | uplifting beats | chill morning | relaxing background",
+   "desc": "Wake up happy with easy going instrumental hiphop beats. Tap ⊕ if you enjoy listening! Carefully selected for study, work or chill mode. Soothing, relaxing morn",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cde49b36e6f29fd07c3c4b590",
+   "followers": 117300,
+   "tracks": 1003,
+   "categories": [
+    "Achtergrond concert"
+   ],
+   "genres": [
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1WH6WVBwPBz35ZbWsgCpgr",
+   "name": "Top Pop Hits 2015-2026",
+   "desc": "best top radio pop hits",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e0220e08c8cc23f404d723b5647ab67616d00001e024718e2b124f79258be7bc452ab67616d00001e029478c87599550dd73bfa7e02ab67616d00001e02d0bbfea6226b5c3707de92ed",
+   "followers": 116412,
+   "tracks": 682,
+   "categories": [],
+   "genres": [
+    "Pop"
+   ],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "4nFTwoPp8L6uato870FdW3",
+   "name": "POOL PARTY 2026 💦 SUMMER HITS",
+   "desc": "summer, 2016 summer, poolside party, summer hit mix, make a splash, soak up the sun, summer vibes, upbeat pop, dance music, indie pop, sunny tunes, warm weather",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da845c6ad2c82c28dbc5bfd53141",
+   "followers": 111545,
+   "tracks": 251,
+   "categories": [],
+   "genres": [
+    "Pop"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6fMTmFXog2orubMRvKYeBV",
+   "name": "Relaxing Spa Music with Water Sounds",
+   "desc": "Relaxing Spa Music with water sounds for relaxation, spa, and yoga ☘️ Click here for some Stress Relief 🌼",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84cfbed29639433149f468d522",
+   "followers": 109379,
+   "tracks": 869,
+   "categories": [
+    "Wellness / spa"
+   ],
+   "genres": [],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6ylvGA8NeX2CuaeGtwHWDJ",
+   "name": "Jazz Greatest Hits",
+   "desc": "",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e020ebc17239b6b18ba88cfb8caab67616d00001e02268f559dbc4714939d575d8cab67616d00001e02b6bd44cf06bf8f4d5ce1e080ab67616d00001e02e025a10e3cb22220929348b6",
+   "followers": 102977,
+   "tracks": 211,
+   "categories": [],
+   "genres": [
+    "Jazz"
+   ],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1TVCd0fTBqNSJDWL9Fzcy3",
+   "name": "Chill, Jazz & Lounge",
+   "desc": "LA PLAYLIST ESSENTIELLE. Un moment de repos élégant, loin du tumulte. Ambiance Jazzy Cool. Chaque titre est sélectionné avec la plus grande attention et les enc",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8438e8c0fd2cac9958c0154bb5",
+   "followers": 102288,
+   "tracks": 126,
+   "categories": [
+    "Cocktailparty",
+    "Lounge / relax",
+    "Wijnproeverij / degustatie"
+   ],
+   "genres": [
+    "Jazz",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "4eOCB3kIVwOvzDWOWT3LjR",
+   "name": "Lounge Covers 🥂 Cocktails & Mingle",
+   "desc": "Vacation vibes: Chill Remixes, Soft House Versions, Popular Summer Hits, Poolside & Beach Bar Songs – perfect for pre‑party, dinner & after party.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8407c3c1355ed65207c1ff4079",
+   "followers": 100757,
+   "tracks": 176,
+   "categories": [
+    "Cocktailparty"
+   ],
+   "genres": [
+    "House / Electronic",
+    "Lounge / Chill",
+    "Pop"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek",
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6Uls6BAiuTRMfqEUyyeODT",
+   "name": "Background Music for Working or Studying",
+   "desc": "Happy - Calm - Acoustic - Instrumental - lofi",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84378142ab7ae7fd3480590834",
+   "followers": 99078,
+   "tracks": 361,
+   "categories": [
+    "Seminarie / vergadering"
+   ],
+   "genres": [
+    "Akoestisch",
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "3FC307HaeiUpZ2w2s4rBcW",
+   "name": "Bar Chill Lounge Music 2026 🍷 Background Music",
+   "desc": "Best lounge bar mix for beach lounges and beach bars. Relax & Chill. Please Follow! 🍷 Coffee House, Chill Music, Beach Bar, Cocktail Bar, Afterwork, Cena Musica",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8401bce68876d6be714382da90",
+   "followers": 91910,
+   "tracks": 364,
+   "categories": [
+    "Lounge / relax"
+   ],
+   "genres": [
+    "House / Electronic",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "dansbaar",
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "0XvBIoFUDrKfoPmnhz1fS4",
+   "name": "Japanese Zen Garden 日本庭園 - Peaceful Instrumental Asian Music for Rest, Relaxation, Meditation & Spa",
+   "desc": "Soothing Japanese Music to reach a state of zen, curated by WWM . | shakuhachi, japanese flute, koto, shamisen, erhu, reiki, studying, reading, chill, calm, pea",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da842213d46edda7c0becdd95ee2",
+   "followers": 82866,
+   "tracks": 257,
+   "categories": [
+    "Wellness / spa"
+   ],
+   "genres": [
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1z9nITIlc0tEaCwHaaeD66",
+   "name": "POP 80s & 90s & 00s Hits",
+   "desc": "Throwback Hits 1980s, 1990s & 2000s. Best pop songs 2000s, 90s and 80s in one playlist.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d297aa3a17182149122ed2df",
+   "followers": 82662,
+   "tracks": 264,
+   "categories": [],
+   "genres": [
+    "Pop"
+   ],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2w2J0f3Fuorw01qDoqGPRQ",
+   "name": "Background Jazz - chill and sophisticated lounge tunes",
+   "desc": "From dinner parties to relaxed evenings, this playlist offers the ideal background music to keep the vibe elegant, calm, and effortlessly cool.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84c3527444afa74a5a95b9c3a8",
+   "followers": 82494,
+   "tracks": 200,
+   "categories": [
+    "Chic diner",
+    "Cocktailparty",
+    "Netwerkevent / receptie"
+   ],
+   "genres": [
+    "Jazz",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5IJ0fjzknVCr51CTd2jAvq",
+   "name": "Instrumental Love Songs - Relaxing Romantic Music for Dinner, Date Nights, and Weddings",
+   "desc": "The perfect background music for your cocktail party, reception, rehearsal dinner, first dance, father daughter dance, modern, and classical piano and guitar mu",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84692ae58df468bdcd91eac9c1",
+   "followers": 79111,
+   "tracks": 234,
+   "categories": [
+    "Bruiloft - ceremonie",
+    "Bruiloft - feest"
+   ],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [
+    "dansbaar",
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2iUm4Ez2UGUpdN4KuBtAu0",
+   "name": "Disco Classics 70 & 80 💃🕺",
+   "desc": "Disco Classics Hits & Hidden Gems from 70s & 80s. Best Funky Soul Disco. From Chic, Kool & the Gang, Donna Summer to Gwen McGrae. All original songs from the Se",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c929445a847f6a781f96db29c",
+   "followers": 77059,
+   "tracks": 187,
+   "categories": [],
+   "genres": [
+    "Funk / Disco",
+    "R&B / Soul"
+   ],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6jMCpOBtseRh7Pv0nCnm31",
+   "name": "Beautiful, Calming Classical Music",
+   "desc": "",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e020bb74649863dee1a10b5bc0aab67616d00001e020d3d783124fd96e37b6feee4ab67616d00001e023eda371105fc7e76fb917e66ab67616d00001e02cbb64bd416bb225456100bbc",
+   "followers": 70092,
+   "tracks": 292,
+   "categories": [],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1J4o1BHdsR1ci0sUa3P2L4",
+   "name": "MICHAEL JACKSON X HALLOWEEN",
+   "desc": "The perfect Michael Jackson playlist for your Halloween party is here! Including tracks from Scream, Blood on the Dance Floor and the world’s bestselling album ",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da842e844dbbd3e16512f0171064",
+   "followers": 69926,
+   "tracks": 37,
+   "categories": [
+    "Halloween feest"
+   ],
+   "genres": [
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "dansbaar"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "68ZU9iwn9C6lxDdzevHcFv",
+   "name": "romantic soul + R&B",
+   "desc": "R&B and soul for late night bedroom vibes. Slow sensual rnb and romantic soul. Ft. Bill Withers, Etta James, Janis Joplin.",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848a6c9c32a8b8304088b1d845",
+   "followers": 69810,
+   "tracks": 100,
+   "categories": [],
+   "genres": [
+    "R&B / Soul"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "4KMdDJ1ZOEnbAyqGeD9R79",
+   "name": "catwalk runway",
+   "desc": "walkin' by the streets like a supermodel (ig: gaiaabasile 🤍 tik tok: urbrunettemuse) - UPDATED VICTORIA'S SECRET FASHION SHOW 2026 !!",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8421b613263f185d28b8994a6c",
+   "followers": 66819,
+   "tracks": 344,
+   "categories": [
+    "Modeshow / fashion event"
+   ],
+   "genres": [],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "3cnkhyqinMpD5O6f6qh5l4",
+   "name": "Productive Work Lofi Beats  –  Study Focus & Productivity Music ✨ fall 2026",
+   "desc": "A chill lo-fi jazz instrumentals for working coding or studying playlist, upbeat office background to code sit exams flow state focus daily lock in fall 2026. G",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d8be85ead2259236f0c15fd3",
+   "followers": 65400,
+   "tracks": 397,
+   "categories": [
+    "Achtergrond concert"
+   ],
+   "genres": [
+    "Jazz",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "energiek",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "29uiOXIxJNOejWUGPYCHHc",
+   "name": "BEST SMOOTH JAZZ 🎷 Greatest Hits (Kenny G, Boney James, Dave Koz & More)",
+   "desc": "saxophone music guitar and piano classics for a relaxed evening night drive sunday morning songs of the 80s 90s instrumentals lounge radio",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e023466ddda72b024a7d8729b20ab67616d00001e02681969ebb9634fbbd22316b6ab67616d00001e02a96756810d2a144d1d40e820ab67616d00001e02c288bd73a17578621edbfa6c",
+   "followers": 63561,
+   "tracks": 121,
+   "categories": [
+    "Lounge / relax"
+   ],
+   "genres": [
+    "Jazz",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "energiek",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "7x9paWLGvU6763DIkXxCFe",
+   "name": "Christmas Playlist 2026🎅🏽",
+   "desc": "Christmas hits, popular classic xmas music, best holiday playlist available. winter wonderland, new covers background party, dinner good vibes, feliz navidad",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845c28a92f163cf15b5ba42ec7",
+   "followers": 63444,
+   "tracks": 29,
+   "categories": [
+    "Kerst / eindejaarsfeest"
+   ],
+   "genres": [
+    "Pop"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek",
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "3YFyRSRPkXAP9XFJisJpEe",
+   "name": "Best Wedding Instrumentals 2026",
+   "desc": "Walk down the aisle with some of the best wedding instrumental songs. These classic love songs are also perfect for the pre-ceremony or the reception!",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da846e46b8bfc7dd3f56c85ce94e",
+   "followers": 61854,
+   "tracks": 150,
+   "categories": [
+    "Bruiloft - ceremonie"
+   ],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "6bxIxcoLoM3u5IY6bE3lLX",
+   "name": "Flashback 70s 80s 90s | Best Dance Hits | Retro Music Mix | Dance Party | Disco Hits | Nostalgia",
+   "desc": "Enjoy the most popular and more touched FlashBacks from the 70's, 80's and 90s. Capa Grátis:Pixabay #Flashback #70s #80s #90s #BestDanceHits #RetroMusicMix #Dan",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da841a2fc95ff078076725f1e344",
+   "followers": 61109,
+   "tracks": 128,
+   "categories": [
+    "Vintage thema (jaren 20-80)"
+   ],
+   "genres": [
+    "Funk / Disco",
+    "Pop"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "7dH5BChboIDJ9Zp5IUk18E",
+   "name": "Starbucks Coffeehouse - acoustic coffeehouse",
+   "desc": "Easy, chill background music & covers (piano, acoustic guitar) by folk, indie & pop artists + singer/songwriters Joji, Taylor Swift, Lana Del Rey, Sufjan Steven",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84ff5fc243daeeed6ef1cf30ad",
+   "followers": 57746,
+   "tracks": 301,
+   "categories": [],
+   "genres": [
+    "Akoestisch",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill",
+    "Pop"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "7gXV6aVcVGpXTOH7yIPbRq",
+   "name": "JAZZ RESTAURANT MUSIC 2026 🎷 relaxing dinner music",
+   "desc": "Smooth jazzy versions of popular hits & classic songs. The perfect background for bar cocktails, cozy night dinners or just relaxing & chilling.",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e26793ea1014555d6c595ec4",
+   "followers": 56423,
+   "tracks": 254,
+   "categories": [],
+   "genres": [
+    "Jazz",
+    "Lounge / Chill",
+    "Pop"
+   ],
+   "energies": [
+    "energiek",
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1PIy8ktH4S4BwZx9JAB5zN",
+   "name": "Best Hip-Hop of all time",
+   "desc": "Jump into the best of what Hip-Hop got to offer. Follow me on IG: @besthiphopoat",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8476702f0f92e90bd1192b9201",
+   "followers": 54970,
+   "tracks": 1629,
+   "categories": [],
+   "genres": [
+    "Hip-Hop"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "5T5Kb4hSFouPLWFSqGK8R6",
+   "name": "Clean Pop Hits 🍭 Kids Party 2026",
+   "desc": "Massive chart & TikTok pop mix. Kid friendly, SFW and family alike! Non explicit, clean POP. Primary school disco tunes. 2010s, 2020s.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da841910d2065edb0ea5128b6b35",
+   "followers": 52991,
+   "tracks": 131,
+   "categories": [
+    "Kinderfeest / familiefeest"
+   ],
+   "genres": [
+    "Funk / Disco",
+    "Pop"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1AOMaSEZf0aChEOK6L5uI3",
+   "name": "DINNER JAZZ 🍷 Instrumental Jazz & Bossa Nova (Restaurant Music)",
+   "desc": "dinner music smooth jazz trio piano background elegant fancy cocktail cafe bar hotel lounge elevator romantic chill night relaxed evening ⚠️ NO SOCIAL MEDIA ACC",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da843e5b19d8564f409b00bf94fc",
+   "followers": 51966,
+   "tracks": 141,
+   "categories": [
+    "Chic diner",
+    "Lounge / relax"
+   ],
+   "genres": [
+    "Jazz",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6uFApPtgDiCKAiDWgJ0l9v",
+   "name": "World music  ",
+   "desc": "Inspired by one of the best world music lables in the world and my many travels",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e0201ad0d6f63e82c8f5aa5ee37ab67616d00001e029aef3574773f2acfb68d9507ab67616d00001e02b3ba93eef83e7bffbcde29b2ab67616d00001e02f52456cd1cc41127916c11ce",
+   "followers": 51098,
+   "tracks": 390,
+   "categories": [],
+   "genres": [
+    "Wereldmuziek"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "47QusNckHD7YXl6e5ZvGsm",
+   "name": "Jazz House 2026 🍸 Late Night Lounge Bar",
+   "desc": "Dinner, beach club chill, rooftop cocktails, poolside party… Mingle, wine & dine to soft jazzy beats, smooth sax & tropical summer vibes.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8459dddbdcabd3da711a1fe680",
+   "followers": 51061,
+   "tracks": 134,
+   "categories": [
+    "Afterparty / late night"
+   ],
+   "genres": [
+    "House / Electronic",
+    "Jazz",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "dansbaar",
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2OFfgjs6kj0eA6FNayhAAJ",
+   "name": "100 Greatest Pop Songs Ever",
+   "desc": "",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e024121faee8df82c526cbab2beab67616d00001e026b44fa8f5415cc4c945117beab67616d00001e02a520a167a62d5548cdb53101ab67616d00001e02b55ed804149fffbb5e35ff34",
+   "followers": 50529,
+   "tracks": 100,
+   "categories": [],
+   "genres": [
+    "Pop"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "0YeRq3OECVFIaeUvNLMisG",
+   "name": "Soft yoga and relaxing music",
+   "desc": "",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c0073af3eef7f236de128134c",
+   "followers": 49722,
+   "tracks": 461,
+   "categories": [
+    "Wellness / spa"
+   ],
+   "genres": [],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5yhdUbI4Lq3oCIj3G1AqoU",
+   "name": "Fine Dining Music",
+   "desc": "Smooth jazz & bossa nova for fine dining restaurants. Elegant background music for upscale dinners, wine bars & hotel restaurants. Piano, saxophone & acoustic g",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84c38a825e3dae252eaa1f8aea",
+   "followers": 49220,
+   "tracks": 300,
+   "categories": [
+    "Chic diner",
+    "Netwerkevent / receptie"
+   ],
+   "genres": [
+    "Akoestisch",
+    "Jazz",
+    "Klassiek / Instrumentaal",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "0pOF8HReRVsNjvGr7tGwYd",
+   "name": "70s & 80s DISCO SOUL FUNK NOSTALGIA ",
+   "desc": "Handpicked favorites of the best funky and soulful disco from the late 70s and early 80s, including Earth Wind & Fire, Kool & The Gang, Diana Ross, Sister Sledg",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cfb6cc9250e673add2fa9cc6d",
+   "followers": 47623,
+   "tracks": 152,
+   "categories": [],
+   "genres": [
+    "Funk / Disco",
+    "R&B / Soul"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "6BlsArGVJCefp1Ao5W2YXS",
+   "name": "SUNDAY BRUNCH 🥞 ",
+   "desc": "Bottomless brunch, family brunch etc. Fun and upbeat",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84536d1cd65e22354a316eca94",
+   "followers": 47408,
+   "tracks": 105,
+   "categories": [
+    "Brunch / lunch"
+   ],
+   "genres": [],
+   "energies": [
+    "energiek",
+    "gezellig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1b2jTTjbTpR3V8s2sAra4x",
+   "name": "Restaurant Lounge Music 2026 🍸 Dinner Chill 🍸 Background Music ",
+   "desc": "Restaurant Playlist is the perfect relaxing and cozy mix of calm and cosy dinner songs. It's perfect for your restaurant guests, or for your friday night dinner",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8443dd96850c102ee8ec6d05ed",
+   "followers": 42096,
+   "tracks": 520,
+   "categories": [],
+   "genres": [
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "0Z7AXfzFdTcsG9vNXXsKza",
+   "name": "Vintage Lounge Café ",
+   "desc": "A sophisticated blend of smooth jazz, elegant bossa nova, and organic chill house. Perfectly curated for cocktail hours, stylish hotel lobbies, and modern home ",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8477719be93db74d85981233b3",
+   "followers": 40616,
+   "tracks": 400,
+   "categories": [
+    "Cocktailparty"
+   ],
+   "genres": [
+    "House / Electronic",
+    "Jazz",
+    "Lounge / Chill",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6WPvtRNmoRCLWsx8FLZenI",
+   "name": "Mix Année 80, 90, 2000, 2010 | Funk, Disco, Pop | Années 80, Années 90, Années 2000, Années 2010",
+   "desc": "soirée, fête, nouvel an 2026, réveillon...",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c26608b490413e111edc71f1d",
+   "followers": 39993,
+   "tracks": 159,
+   "categories": [],
+   "genres": [
+    "Funk / Disco",
+    "Pop"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "0mewvSrUdFGchG49eFObUw",
+   "name": "TRENDING BOLLYWOOD PARTY SONGS 2026 🔥 | Latest Hindi Hits",
+   "desc": "Best Bollywood Party Songs 2026 – Dance, club & wedding hits! Ft. Aaj Ki Raat, Besharam Rang & more. ✨️item song, best dance songs, house party, item songs 2026",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da847358e2326a9239e853cfeac4",
+   "followers": 39885,
+   "tracks": 97,
+   "categories": [
+    "Bruiloft - feest"
+   ],
+   "genres": [
+    "House / Electronic"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6iPbZYKOIrXWDwH32k76YV",
+   "name": "BRUNCH MUSIC 2026 🥑 Chill Sunday Morning Mix",
+   "desc": "Enjoy your breakfast, brunch, and lunch – to a background set of relaxing bossa nova & jazz covers of popular songs. Have a nice weekend!",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da841a9048e48fc428c24209d288",
+   "followers": 39675,
+   "tracks": 356,
+   "categories": [
+    "Brunch / lunch"
+   ],
+   "genres": [
+    "Jazz",
+    "Lounge / Chill",
+    "Pop",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "3coOztpb3qzv6UEvpFPEaW",
+   "name": "Sensual Neo Soul for Maybe-Lovers",
+   "desc": "R&B and soul for late night bedroom vibes. Slow sensual rnb and romantic soul. Ft. Bill Withers, Etta James, Janis Joplin.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cc606585a7f90b9b4b7ffda33",
+   "followers": 39355,
+   "tracks": 100,
+   "categories": [],
+   "genres": [
+    "R&B / Soul"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "4QY0UyROvR8MHKTCwUoUZH",
+   "name": "Koffietijd  ☕ | Coffee Lounge 2026 | Koffiehuis | Morning Autumn Chill",
+   "desc": "De perfecte Koffie Playlist voor jouw ochtendritueel ☕️ Geniet van de beste acoustic pop, chilled indie en ontspannende singer-songwriter muziek. Met o.a. Fleet",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8489dd491d52aa1ea341a36147",
+   "followers": 37958,
+   "tracks": 196,
+   "categories": [],
+   "genres": [
+    "Akoestisch",
+    "Lounge / Chill",
+    "Pop"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5BHRtkMw1JbI0mlAF8lRDS",
+   "name": "Fantasy Ambiance",
+   "desc": "Hail, traveler. Art: @syntetyc",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8481eb7408a74029c37ac0326a",
+   "followers": 37689,
+   "tracks": 509,
+   "categories": [
+    "Beurs / productlancering"
+   ],
+   "genres": [],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "6Mf614QiAuop5ud9x5beBS",
+   "name": "All Time Pop Hits",
+   "desc": "Here is a playlist that covers all hits from different genres and artists which will hit you with nostalgia and memories guaranteed! Switch n shuffle and play t",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e020c13d3d5a503c84fcc60ae94ab67616d00001e021376b4b16f4bfcba02dc571bab67616d00001e024637341b9f507521afa9a778ab67616d00001e025c66e925d8fe4c92ebfb49ed",
+   "followers": 36972,
+   "tracks": 735,
+   "categories": [],
+   "genres": [
+    "Pop"
+   ],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6lzmVNCUx1xrLWhpeuLH12",
+   "name": "Piano Bar • Lounge Music • Smooth Jazz",
+   "desc": "Discover a carefully curated selection of elegant piano jazz, lounge and bossa nova. Song submissions: pianobar.dave@gmail.com. Every submission is personally r",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84c466d175266439f08fe822d7",
+   "followers": 36590,
+   "tracks": 204,
+   "categories": [
+    "Wijnproeverij / degustatie"
+   ],
+   "genres": [
+    "Funk / Disco",
+    "Jazz",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5hV5AU3Xzkde1qrDvtEIEG",
+   "name": "🌞 Surf, Chill, Acoustic, Reggae, Relax & Good Vibes. Camping, Beach, Brunch, Morning, Sunset, Nature",
+   "desc": "Mood: having a coffee and brunch post morning surf with friends 🌞🌞🌞",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c3757310617646a9c251f0ff4",
+   "followers": 36388,
+   "tracks": 95,
+   "categories": [
+    "Brunch / lunch"
+   ],
+   "genres": [
+    "Akoestisch",
+    "Lounge / Chill",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5ACaLTSdentaLY8f5eMqhe",
+   "name": "Génération 90/2000 💿 🎤",
+   "desc": "La playlist parfaite pour une soirée sous le signe de la nostalgie ! Hip-hop US, Rap Français, Electro, Zouk, Dancehall, Reggaeton, entre 2000 et 2010 ! De Asha",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84f65ee94247b526c43861deeb",
+   "followers": 36038,
+   "tracks": 403,
+   "categories": [],
+   "genres": [
+    "Hip-Hop",
+    "Latin",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "dansbaar"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5Hj0N4Go1pXIJhE4RPOjS7",
+   "name": "Spa Massage  & Wellness Music 2026",
+   "desc": "Relaxing Spa Massage - Calm Spa Music - Massage Spa Relax - Spa Treatment - Music Wellness - Music for Massage, Relaxation, Healing, Beauty, Meditation, Yoga, D",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a877954fd7b321268303d028",
+   "followers": 35832,
+   "tracks": 240,
+   "categories": [
+    "Wellness / spa"
+   ],
+   "genres": [],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2ORtw9DNaLeuvvExilqX7O",
+   "name": "Best Classical Music Of All Time",
+   "desc": "Literally said it all in the title. Great for studying or just vibing.",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8466679f919fe3cafa348bfa11",
+   "followers": 35241,
+   "tracks": 158,
+   "categories": [],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "53hlu5JIigNz3iYdCnGStj",
+   "name": "Best birthday songs",
+   "desc": "",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e020bcccf7c7e65f294c2430f9bab67616d00001e0218b7e2ca5058f16a12059044ab67616d00001e024ce8b4e42588bf18182a1ad2ab67616d00001e02ee3d8573b47a75a0d8233b39",
+   "followers": 34364,
+   "tracks": 31,
+   "categories": [
+    "Verjaardagsfeest"
+   ],
+   "genres": [],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "3IpPd1KG170tx2NBulFEJ1",
+   "name": "100 Greatest Soul Songs",
+   "desc": "100 Greatest Soul Classics | Best Soul Songs | feat Aretha Franklin | Listen to more 100 Greatest Playlists",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cd88820680ab6586ff90fff01",
+   "followers": 34197,
+   "tracks": 111,
+   "categories": [],
+   "genres": [
+    "R&B / Soul"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "7jo77oC6G1fYY0xhaLN0wf",
+   "name": "Wedding Reception / Party Songs",
+   "desc": "",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8470fd5c159335f68e8d477e82",
+   "followers": 34119,
+   "tracks": 121,
+   "categories": [
+    "Bruiloft - feest"
+   ],
+   "genres": [],
+   "energies": [
+    "dansbaar"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "3GDI9LbCKhbljvJENWPeXn",
+   "name": "Fashion Show - Vogue Runway Music -  PFW - Paris Fashion Week",
+   "desc": "Fashion Week Music Worldwide - Music influenced by luxury clothing stores: Vogue, Prada, Gucci, Chanel, Dior, Louis Vuitton, Versace, Zara, Nordstrom, Mango, Be",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da847e83976d5570f6ad10e6ecff",
+   "followers": 32243,
+   "tracks": 237,
+   "categories": [
+    "Modeshow / fashion event"
+   ],
+   "genres": [
+    "House / Electronic",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "61StMVbXBPemkwAlSBdjMy",
+   "name": "The Witcher Fantasy Ambient",
+   "desc": "Witcher Sleep / Witcher 4 / The Witcher IV Relaxing Calm Fantasy Ambient - peaceful instrumental background music playlist! Check out also Lord of the Rings Sle",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da846881ae9cc06fd9ae8b9ab3a2",
+   "followers": 29680,
+   "tracks": 278,
+   "categories": [],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1iZ69nzwz5UpZzyQGD6cuk",
+   "name": "Fall lofi 2026🍁Chill Autumn background🍂fall music",
+   "desc": "Fall lofi hip hop, Chill Autumn beats lo-fi vibes Fall study music , Sept, October, autumn winter chill hip hop lo-fi fall background music, Chillhop Fall, rain",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cab6d275b9e3df985b277c8af",
+   "followers": 28345,
+   "tracks": 294,
+   "categories": [],
+   "genres": [
+    "Hip-Hop",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "3DclLACJB1zMM1n6PRw3GA",
+   "name": "SMOOTH JAZZ 🎷 Instrumental Smooth Jazz Classics & More",
+   "desc": "smooth saxophone jazz music for a relaxed evening elegant jazzy vibes late night drive 80s 90s relaxing chillout lounge guitar funk fusion ⚠️ NO SOCIAL MEDIA AC",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84edb317b3aa297f4ca67652b6",
+   "followers": 27026,
+   "tracks": 121,
+   "categories": [
+    "Lounge / relax"
+   ],
+   "genres": [
+    "Funk / Disco",
+    "Jazz",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "4fnjICHNvZNngwigxZSe3f",
+   "name": "Toddler Dance Party Songs 🥳🎈 Fun Music for Kids",
+   "desc": "Party hits 2022 for children. The best playlist to sing along, for birthday and other happy events!",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a876c5df6a5d55c32da30359",
+   "followers": 25904,
+   "tracks": 70,
+   "categories": [
+    "Kinderfeest / familiefeest",
+    "Verjaardagsfeest"
+   ],
+   "genres": [],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2ZaWnm9R90pSy3ZsY2uJMk",
+   "name": "Easy Jazz & Soft Lounge Music",
+   "desc": "",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e025f6f71ac6b66ad443d2452ffab67616d00001e02642d7ca95e990c3230a0f350ab67616d00001e0274c732f8aa0e0ccbb3d17d96ab67616d00001e02c836bcb8a0d4d4155195d2c1",
+   "followers": 25766,
+   "tracks": 463,
+   "categories": [
+    "Wijnproeverij / degustatie"
+   ],
+   "genres": [
+    "Jazz",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "114XHWcp6XFqHfXdcYbuZ2",
+   "name": "Background Chill Music 🌊 Chillout Lounge & Relaxing Vibes ☀️ Deep House - Cafe Playlist - Office Work",
+   "desc": "The best background chill house & lounge music, summer chillout vibes. The perfect playlist for relaxing background vibes. Updated weekly ✨ Cafe, Restaurant pla",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c590689d2dd586c99c600b2ef",
+   "followers": 24645,
+   "tracks": 609,
+   "categories": [
+    "Lounge / relax"
+   ],
+   "genres": [
+    "House / Electronic",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2V5fJpFfyi7lbDFKoFJBLi",
+   "name": "Retro 1990-2000 - House/Trance/Techno/Acid - Belgium",
+   "desc": "Classic Belgium tracks since 1990 : Bonzai, CherryMoon, H2O, Lagoa, Captain, la Bush",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c81e2c7d57a6bfcbdc9fdcb1d",
+   "followers": 24600,
+   "tracks": 164,
+   "categories": [
+    "Afterparty / late night"
+   ],
+   "genres": [
+    "House / Electronic"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "76QAc31EUMTuCP06DF0wAJ",
+   "name": "Halloween Hits 2026 - Viral & Dance Sounds for Spooky Season Halloween Party and Pumpkin Picking",
+   "desc": "Featuring Halloween viral hit 'LA CALABAZA' . Celebrate spooky season this year with the ultimate Halloween Hits 2026 - Viral dance, pop, techno & EDM bangers.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8452faf0e2cb5679be83cd175a",
+   "followers": 24380,
+   "tracks": 90,
+   "categories": [
+    "Halloween feest"
+   ],
+   "genres": [
+    "House / Electronic",
+    "Pop"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2k9QmVpMHJfyjVVvJdnRLb",
+   "name": "Restaurant Music 2026 🍷 Soft Pop Hits",
+   "desc": "The best restaurant songs music playlist, filled with soft pop hits to play in the background. best restaurant playlist - best restaurant music - best restauran",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840e121c903eaaceed16638fbf",
+   "followers": 24108,
+   "tracks": 200,
+   "categories": [],
+   "genres": [
+    "Pop"
+   ],
+   "energies": [
+    "energiek",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2stZxCpQjTMDE4Qtzo50xM",
+   "name": "Disney Parks: Background Music",
+   "desc": "Atmospheric music, past and present, from the Walt Disney World Resort and Disneyland Resort - including Disneyland, California Adventure, Magic Kingdom, EPCOT ",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a49c8496df8ca623694539ca",
+   "followers": 24093,
+   "tracks": 267,
+   "categories": [],
+   "genres": [
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2hZx0S3DtcP7r74cyq5zyq",
+   "name": "Cozy Autumn Instrumentals 🍂🕯",
+   "desc": "Soft piano with no lyrics for the warmest kind of fall: reading, journaling, sipping hot chocolate and letting the cold outside make everything inside feel more",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c4701396b2af068909f77e951",
+   "followers": 23032,
+   "tracks": 202,
+   "categories": [],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [
+    "gezellig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6RAOlIp14AWw326OmFqble",
+   "name": "Kerst Classics - Kerst Klassiekers - Christmas Hits 2026  🌲",
+   "desc": "De ultieme verzameling van de allerbeste Kerst Classics en tijdloze Christmas Hits! 🎄✨ Geniet van de grootste kerstklassiekers aller tijden: van de meezingers v",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84e8e8f480d439f6a3fc543e54",
+   "followers": 22658,
+   "tracks": 102,
+   "categories": [
+    "Kerst / eindejaarsfeest"
+   ],
+   "genres": [],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "4WOh4HerggHJdidVMA298p",
+   "name": "Holiday Playlist 2026🎄",
+   "desc": "Ultimate Holiday vibes - Christmas Xmas Winter wonderland classic music to enjoy your holidays in 2025. Santa, gifts, popular jolly tunes, chill beats Backgroun",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da847fb6ad5723841373211fffe2",
+   "followers": 21982,
+   "tracks": 115,
+   "categories": [
+    "Kerst / eindejaarsfeest"
+   ],
+   "genres": [
+    "Lounge / Chill",
+    "Pop"
+   ],
+   "energies": [
+    "dansbaar",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "47lKGlxoijn8lJyWcNBwEW",
+   "name": "100 Latin Classics",
+   "desc": "",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e02017ed8a01b6648a9d1fe2f58ab67616d00001e020f6032e5d3d179373f98c381ab67616d00001e023f265b6afc76d0f74d35df8eab67616d00001e02b74db21e2951b303593b6b7a",
+   "followers": 21588,
+   "tracks": 100,
+   "categories": [],
+   "genres": [
+    "Latin"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "3usyoh1MlMAnphdE9WG6Js",
+   "name": "SOUL - R&B , Greatest Hits",
+   "desc": "The stars of all times Bill Withers , Marvin Gaye , Etta James , Lou Rawls , George Benson , Ray Charles , Stevie Wonder and more .",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e027649604d1b27be1c78c466e9ab67616d00001e029877c2b01fca3367809f9e27ab67616d00001e02994c7fa375ca7606a6538cfdab67616d00001e02f64b9ea8a8a409c6af86134f",
+   "followers": 21489,
+   "tracks": 85,
+   "categories": [],
+   "genres": [
+    "R&B / Soul"
+   ],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "30vMKHNcwXkeZMkn8lAmhX",
+   "name": "Silvester 2026 🕺🏻 New Year's Eve ⛓️ Party Tunes, Dance Hits Deutschland 2024/2025",
+   "desc": "Für deine Silvester Party 2025/26 zusammengestellte Hits, aktuelle Musik und absolute Klassiker. Frohes Neues 2026, TikTok Playlist, Techno Remixes, Viral, Mark",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d77fab59d60b328535ebbe55",
+   "followers": 21365,
+   "tracks": 162,
+   "categories": [
+    "Kerst / eindejaarsfeest"
+   ],
+   "genres": [
+    "House / Electronic"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2gL6X692hZjNXnMRMTlOid",
+   "name": "Happy Birthday to You! 🎉🎈🎁",
+   "desc": "Six hours of Birthday 🎉 Songs 🎶 for Adults and Children. Let's Celebrate! 🎊",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da842b72c8c64459bc1f27634b04",
+   "followers": 21316,
+   "tracks": 168,
+   "categories": [
+    "Kinderfeest / familiefeest"
+   ],
+   "genres": [],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "5kQFzamfESAMOtldJujaQP",
+   "name": "Evening jazz and some wine",
+   "desc": "Jazz for nights with good friends, easy laughs, and a bottle that somehow empties itself. 🍷🎷Classic grooves + fresh gems + a few cheeky covers—perfect for cooki",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da846ed04b4343b48baa520f98ae",
+   "followers": 20824,
+   "tracks": 374,
+   "categories": [
+    "Wijnproeverij / degustatie"
+   ],
+   "genres": [
+    "Jazz"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "0AeSd2Xy2paXN9teOb0lrK",
+   "name": "Beautiful yoga music",
+   "desc": "",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e0287a67ea7c3fb618e917c8af3ab67616d00001e029766ec3c3ccb507193ec38daab67616d00001e02d3da0baa1ddf165a62b30976ab67616d00001e02ec0f35580a0d6e7b7e6795a7",
+   "followers": 20704,
+   "tracks": 66,
+   "categories": [
+    "Wellness / spa"
+   ],
+   "genres": [],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "0l02pjIfzPKwsiWcc7lB7a",
+   "name": "Italian restaurant 🇮🇹 | musica soft Ristorante italiano | background music for dinner / lunch",
+   "desc": "italian classic hits - popular italian songs - italian folk songs- wedding dinner - wedding background music - successi italiani - musica per ristorante - elega",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da845366d96c9fd5f13d2f017554",
+   "followers": 20273,
+   "tracks": 75,
+   "categories": [],
+   "genres": [
+    "Akoestisch",
+    "Pop"
+   ],
+   "energies": [
+    "energiek",
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6QrVtKfxNgYT1Bm4D4m2fl",
+   "name": "New Year's Eve ",
+   "desc": "Feel good party vibes to welcome in the new year.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c48ed4ea4b0dfa26a65cf344c",
+   "followers": 19729,
+   "tracks": 160,
+   "categories": [
+    "Kerst / eindejaarsfeest"
+   ],
+   "genres": [],
+   "energies": [
+    "dansbaar",
+    "gezellig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "0IKMfN5YLqhNNDgPaMHf5k",
+   "name": "zen music 2026 🧘‍♀️ mindfulness, meditation & relaxation",
+   "desc": "Relaxing ambient tones that helps calming your mind. Meditate, yoga, or sleep to a peaceful playlist for inner balance & stress relief.",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a448fc4220e9f3553fe9e1de",
+   "followers": 19524,
+   "tracks": 407,
+   "categories": [
+    "Wellness / spa"
+   ],
+   "genres": [],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "4S6zWJVqSznXwsQv9QM1Ap",
+   "name": "✨ Deeply Relaxing Sounds",
+   "desc": "Sounds for sleep, calming down, meditation, mindfulness & yoga. Soothing, ambient, dreamy frequencies. Breathe and connect with your mind & body ✨",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a13563b68f1a3c748662f434",
+   "followers": 18547,
+   "tracks": 254,
+   "categories": [
+    "Wellness / spa"
+   ],
+   "genres": [],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2uiwOUgigesd85jZKHRxku",
+   "name": "New York Autumn Vintage Jazz ☕🍂",
+   "desc": "Vintage jazz with New York autumn vibes. 🍂 Instrumental background music full of café charm and nostalgia. New York Jazz, Autumn Jazz, Vintage Jazz, Relaxing Ja",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84fac34ca422a16786c0c0b5c1",
+   "followers": 18084,
+   "tracks": 188,
+   "categories": [],
+   "genres": [
+    "Jazz",
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2og81lhDnIgVUHFgRk1Pe6",
+   "name": "Morning Café Jazz | Cozy Jazz Café | Morning Jazz",
+   "desc": "Morning Café Jazz Vibes | Cozy Jazz Café | Smooth Jazz Piano | Jazz Chillout | Study Jazz in the Background | Jazz Bar | Jazz Lounge Bar Playlist | Lounge Jazz ",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84f67900b7f7d3c148f47cf41a",
+   "followers": 18084,
+   "tracks": 113,
+   "categories": [],
+   "genres": [
+    "Jazz",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "78LurL2U5XVJHj86TVRDSp",
+   "name": "Happy Birthday Party Music",
+   "desc": "",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e023e1c3ca6fcbf79a97a79f9d2ab67616d00001e02663392f73f1cd339bc0fbd13ab67616d00001e028021fdc78268759f95f5820eab67616d00001e02d545f9fee1eb2730f4b5b523",
+   "followers": 17060,
+   "tracks": 93,
+   "categories": [
+    "Verjaardagsfeest"
+   ],
+   "genres": [],
+   "energies": [
+    "dansbaar"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "77OpFLSdLy3nC9huQIXlxk",
+   "name": "Calm Background Instrumentals: Relax Read Study Unwind Chill",
+   "desc": "Peaceful, soothing, calming and mellow background music for relaxing, reading, studying, creating, writing, mindfulness, focus, working, unwinding and chilling ",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da844f5f58d363e82e257c2a477a",
+   "followers": 16625,
+   "tracks": 592,
+   "categories": [
+    "Achtergrond concert"
+   ],
+   "genres": [
+    "Akoestisch",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "7xJk4vsIuFoM9GmXwyrEhY",
+   "name": "Winter lofi 2026❄️lofi Winter☃️cozy christmas beats",
+   "desc": "☃️Winter lofi Hip hop beats, cold snow cozy party chill background fireplace. Rainy snowy lo-fi Christmas xmas holiday good vibes, Rain lo-fi music cold vibes i",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ee12d4f724dd925fd45ccb52",
+   "followers": 16045,
+   "tracks": 252,
+   "categories": [
+    "Kerst / eindejaarsfeest"
+   ],
+   "genres": [
+    "Hip-Hop",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "dansbaar",
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "3Go35JSLQZDcCSrBvEaces",
+   "name": "Cozy Christmas Classics",
+   "desc": "Old Christmas classics and festive family favourites. Sing along xmas hits everyone knows. Christmas dinner, christmas party vibes. Cozy Christmas 2025. Driving",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84b0008994d62a0be1eab36dca",
+   "followers": 15824,
+   "tracks": 69,
+   "categories": [
+    "Kerst / eindejaarsfeest"
+   ],
+   "genres": [],
+   "energies": [
+    "dansbaar",
+    "energiek",
+    "gezellig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2LCYaIIjmYmeQu8swL47Uf",
+   "name": "De Top 100 van De jaren nul — StuBru",
+   "desc": "Dit is de Top 100 van De Jaren Nul 2024. Luister van maandag tot donderdag vanaf 18:00 naar De Jaren Nul op Studio Brussel.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84ca79ddd9c41fb8011edb2671",
+   "followers": 15769,
+   "tracks": 100,
+   "categories": [
+    "Verjaardagsfeest"
+   ],
+   "genres": [],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "6jGjUCK4rqDiyFDdkqJKgC",
+   "name": "Gen Z wedding reception playlist 💍 🥂 ",
+   "desc": "Made this for my wedding back in August 2023 thanks for all the saves!",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da848095b7a87e4d5f4f36d9b5e6",
+   "followers": 15622,
+   "tracks": 74,
+   "categories": [
+    "Bruiloft - feest"
+   ],
+   "genres": [],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "0z20o9CPpksUBovTOgz0tC",
+   "name": "elegant life",
+   "desc": "stay chic and classy",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ef161504ca3e500b1e044b9c",
+   "followers": 15455,
+   "tracks": 39,
+   "categories": [
+    "Gala / award show",
+    "Netwerkevent / receptie"
+   ],
+   "genres": [],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "6OtMvACLLJZ3INHWemmMMn",
+   "name": "LUNCH & CHILL",
+   "desc": "",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c014956989bc706c3e0020bd8",
+   "followers": 15442,
+   "tracks": 163,
+   "categories": [
+    "Brunch / lunch"
+   ],
+   "genres": [
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1WGflO5EGz2FqgedAFW5uk",
+   "name": "Late Night Party Vibes 🔥",
+   "desc": "For rooftop nights, neon lights, and that one song you keep rewinding! Contact: epicsoundstack@outlook.com",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84777075b94dc640f52c669e5d",
+   "followers": 15325,
+   "tracks": 61,
+   "categories": [
+    "Afterparty / late night"
+   ],
+   "genres": [],
+   "energies": [
+    "dansbaar"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "3VJHYQVXCQJA8P58eCSDiP",
+   "name": "Studio 100 SingAlong in Symphony",
+   "desc": "Studio 100 viert 30 jaar muziek, magie en plezier met al jouw favoriete helden. Zing en dans mee tijdens deze unieke SingAlong editie met de XL-band en het 58-k",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da848a3e8293185ede77e36b4dce",
+   "followers": 15176,
+   "tracks": 69,
+   "categories": [
+    "Gala / award show"
+   ],
+   "genres": [],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "41xK3RcdjtuaUBmO7HVS3G",
+   "name": "The Victoria's Secret Fashion Show Soundtrack",
+   "desc": "Music from the VS Runway (2005 - Present)",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da849907653e484a7d1aab447fea",
+   "followers": 14802,
+   "tracks": 118,
+   "categories": [
+    "Modeshow / fashion event"
+   ],
+   "genres": [],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "0NbgG3fbBBaOsSnSfGGQ8z",
+   "name": "Saxophone Wedding 🎷👰 Instrumentals - First Dance, Dinner",
+   "desc": "Beautiful and romantic music with Saxophone for Weddings. Inspirations for your first dance ir Background music for the perfect wedding dinner.",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e4f97a30cfd862be269c5026",
+   "followers": 14704,
+   "tracks": 141,
+   "categories": [
+    "Bruiloft - ceremonie"
+   ],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [
+    "dansbaar",
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1EqclSFZ38cdheF2sfnDiN",
+   "name": "Retro house 90’s",
+   "desc": "",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e0214dbae05b53c688045505150ab67616d00001e028468f95774d54dbbcdc0880fab67616d00001e02be2c916aa45c7e9f0d65ad44ab67616d00001e02e63db06e4aed32229c880075",
+   "followers": 14227,
+   "tracks": 48,
+   "categories": [
+    "Vintage thema (jaren 20-80)"
+   ],
+   "genres": [
+    "House / Electronic"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "0xTOjQjzCBKB8xLsU9XNlb",
+   "name": "Rock Playlists🎸",
+   "desc": "",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d604da0f33630215164bc489",
+   "followers": 14148,
+   "tracks": 425,
+   "categories": [],
+   "genres": [
+    "Rock"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "0doZqEP0SlmYiNfR7Zoza0",
+   "name": "BORRELMUZIEK🍷🧀",
+   "desc": "Muziek voor bij een rustige borrelmiddag. Van oude soul, indi, country, beetje alternatief, vergeetmeliedjes, tot hippe hitjes van nu… Proost! 🍻",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c312e615e2ae2d1d4a2045ed",
+   "followers": 14142,
+   "tracks": 281,
+   "categories": [
+    "Zomerse borrel / terras"
+   ],
+   "genres": [
+    "R&B / Soul"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "5sUiqf9hBxTcoDfBYH2yHr",
+   "name": "Luxury Wellness Hotel - Spa, Massage, Sauna Music",
+   "desc": "Calm, refined soundscapes to create a luxurious spa atmosphere for total relaxation. Perfect for luxury spa, massage, sauna and wellness.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8446bd436195a225c234b01c2f",
+   "followers": 14114,
+   "tracks": 316,
+   "categories": [
+    "Wellness / spa"
+   ],
+   "genres": [],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "4cb9dwlMC0UzL2dhjKwMPc",
+   "name": "Easy Background Music",
+   "desc": "Old & New Songs. Listen while reading, talking, walking, writing, relaxing, cooking, cleaning :)",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84979b32037ab7a0dfe6742491",
+   "followers": 13944,
+   "tracks": 77,
+   "categories": [],
+   "genres": [],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6lc5xVPozbVR1E3SxNzP1b",
+   "name": "Restaurant Music🍸 Dinner & Lounge",
+   "desc": "The ultimate Background Music for restaurants, hotels, and cozy dinner parties. A sophisticated mix of Bossa Nova, Jazz, and Dinner Chill rhythms to create an e",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8426ac9cc4b8725418252f3652",
+   "followers": 13594,
+   "tracks": 244,
+   "categories": [
+    "Chic diner"
+   ],
+   "genres": [
+    "Jazz",
+    "Lounge / Chill",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "energiek",
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1IzPLX8l1tXmXUB5OdHhDx",
+   "name": "Sunday Morning Coffeehouse 2026",
+   "desc": "Easy, chill background music & covers (piano, acoustic guitar) by folk, indie & pop artists + singer/songwriters Adele, sombr, Taylor Swift, Lana Del Rey, Sufja",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c9f8749c7e1177880ee43fa74",
+   "followers": 12973,
+   "tracks": 285,
+   "categories": [],
+   "genres": [
+    "Akoestisch",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill",
+    "Pop"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "4pmuMlgy5iZvnTxahbP3KP",
+   "name": "Luxury Dinner Background Music 🥂🤵🏻‍♂️🤵🏼‍♀️",
+   "desc": "Enjoy a fancy dinner with these exquisite instrumental beats. Chill beats for a relaxing dinner atmosphere.",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b4eb844e03c874cff0d3dbc2",
+   "followers": 12799,
+   "tracks": 238,
+   "categories": [
+    "Chic diner"
+   ],
+   "genres": [
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "6036Dh6a3Igwx6JMldP5tV",
+   "name": "Popular Halloween Songs 2026",
+   "desc": "Halloween party hits, popular spooky music for trick or treat, classroom fall autumn songs, family friends gatherings, costumes, pumpkins, carnival",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84aaae4f85fab86dedc9ad2fe4",
+   "followers": 12736,
+   "tracks": 28,
+   "categories": [
+    "Halloween feest"
+   ],
+   "genres": [
+    "Pop"
+   ],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "7xVYvU65ezCBiOu49BSV4I",
+   "name": "80s -  soft background  music for restaurants ( dinner )      ( 80-tal musiklista för restaurang )",
+   "desc": "A softer 80s Music Mix for Restaurant to fit during dinner.",
+   "img": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8426d7822e855aff6ed2d1a8d9",
+   "followers": 12704,
+   "tracks": 129,
+   "categories": [
+    "Chic diner"
+   ],
+   "genres": [],
+   "energies": [
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "5Pej8Un66RRjAUHyrkI5TY",
+   "name": "Pop music without lyrics",
+   "desc": "",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e02103a8fd17ff6b4de98b84aa4ab67616d00001e0256febbe40b406f1848a08a2bab67616d00001e0269aeee90278431b2bbe0f5e4ab67616d00001e02b18e4e8f70d1f7da50b34661",
+   "followers": 12599,
+   "tracks": 93,
+   "categories": [],
+   "genres": [
+    "Pop"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "05LXdtlRI4NxVNtbgqQtrO",
+   "name": "New Year's Eve Classics Party",
+   "desc": "",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e0270f7a1b35d5165c85b95a0e0ab67616d00001e029fa55e152b683f7b2ce9fb68ab67616d00001e02c7d7cdad0c2ffa5620129ee8ab67616d00001e02d0a50cacfb47854fa416cd6c",
+   "followers": 12404,
+   "tracks": 85,
+   "categories": [
+    "Kerst / eindejaarsfeest"
+   ],
+   "genres": [],
+   "energies": [
+    "dansbaar"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1fJiRbSbzNDp1coGNv57Qs",
+   "name": "2000s upbeat",
+   "desc": "",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e02382514f0114ba8f4a16d5db4ab67616d00001e0287e2f8346625bb6fd20d52beab67616d00001e0297c7b770b28ffeed164f4d0eab67616d00001e02dc4d2d105e96083608c468bd",
+   "followers": 12286,
+   "tracks": 125,
+   "categories": [],
+   "genres": [],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "30qIz368gydPqgG2BVXFNc",
+   "name": "Wellness Music",
+   "desc": "Wellness music that feels just like a day at the spa. Relaxing and chilled ambient music. The perfect background music for your meditation or yoga session.",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8429507fcb893a618c39a693d7",
+   "followers": 12192,
+   "tracks": 150,
+   "categories": [
+    "Wellness / spa"
+   ],
+   "genres": [
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1MGepw3nKfvCMKUn8jsgV9",
+   "name": "Le meilleur du jazz - 50 titres de légende",
+   "desc": "",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e02d7720a6a8b713b833313f396ab67616d00001e02d7cd1d8168aaca9041daad61ab67616d00001e02deac5adf07affb5fec422701ab67616d00001e02df3d459abce953d24caf1f91",
+   "followers": 11976,
+   "tracks": 49,
+   "categories": [],
+   "genres": [
+    "Jazz"
+   ],
+   "energies": [],
+   "spotify": false
+  },
+  {
+   "id": "1fpYm79j2Um7mMzONC96ha",
+   "name": "🎉 Feestje 2026 🎉 | Best party hits | Feest | Verjaardag 2026 | Birthday Bash 2025 | Schoolfeest 19",
+   "desc": "Lijst is altijd uptodate ! Een goed feestje en geen zin om muziek te zoeken. Hierin staan alle toffe party-hits in alle soorten en maten ! Vanaf de 80's / 90's ",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da844fa3d61a0aa039ad1fced8ca",
+   "followers": 11821,
+   "tracks": 530,
+   "categories": [
+    "Verjaardagsfeest"
+   ],
+   "genres": [],
+   "energies": [
+    "dansbaar",
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "37M1S8hE8x4wF6HXT7NKCZ",
+   "name": "Pop Instrumental Hits ",
+   "desc": "",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84ac5ee504282f386359ec6b48",
+   "followers": 11493,
+   "tracks": 207,
+   "categories": [],
+   "genres": [
+    "Klassiek / Instrumentaal",
+    "Pop"
+   ],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1SPEGX7eXqjjtp3bCBrv9x",
+   "name": "Ibiza Lounge 🌴 Deep & Soft House Vibes 2026",
+   "desc": "A refined underground selection of deep vibes, house grooves & sophisticated electronic music. Perfect for Ibiza sunset sessions, lounge bars, happy hour & styl",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cd3f41ffe79a6a11f768ee6c8",
+   "followers": 11472,
+   "tracks": 250,
+   "categories": [
+    "Cocktailparty"
+   ],
+   "genres": [
+    "House / Electronic",
+    "Lounge / Chill",
+    "Wereldmuziek"
+   ],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "0NzGm3joYFosSud926PQF9",
+   "name": "Lounge instrumental ",
+   "desc": "",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e021cd6faa3694cc12422fd67e6ab67616d00001e02342538b05e1e64c5339b2238ab67616d00001e02a0d4f46614b4813b3296e275ab67616d00001e02c50c2c8122be910e91aea31e",
+   "followers": 10841,
+   "tracks": 38,
+   "categories": [
+    "Lounge / relax"
+   ],
+   "genres": [
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2eLwNSlpcwxXHQNWml6m98",
+   "name": "Lofi Beats / Study Music",
+   "desc": "The best lofi hip hop, chill beats, or instrumental background music for studying, relaxing, working, or sleeping. Tags: Chillhop, calm beats, coffee shop vibes",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d36448173af22baeee71fc7f",
+   "followers": 10785,
+   "tracks": 244,
+   "categories": [],
+   "genres": [
+    "Hip-Hop",
+    "Klassiek / Instrumentaal",
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "2TmBV8maKvNbw2QpmBmhzV",
+   "name": "Luxury Spa Massage 2026 ",
+   "desc": "Music for Massage, Yoga and Relaxation - Wellness Music - Luxury Spa Massage & Treatment - Stress Relief - Atmosphere Wellness - Relaxing Music for Luxury Massa",
+   "img": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8444dffa96c16946ea6c7e2456",
+   "followers": 10494,
+   "tracks": 250,
+   "categories": [
+    "Wellness / spa"
+   ],
+   "genres": [],
+   "energies": [
+    "rustig",
+    "zeer_rustig"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "1jXc5qconbwICSLVphzFiC",
+   "name": "Happy Lunch Music",
+   "desc": "An eclectic mix of upbeat music for a happy lunch vibes.",
+   "img": "https://mosaic.scdn.co/640/ab67616d00001e029173e50e99bdea2400222f02ab67616d00001e02dc30583ba717007b00cceb25ab67616d00001e02fbc98da6995bb0a504ed363dab67616d00001e02fe1a9aa59e3c6189a09ae37a",
+   "followers": 10225,
+   "tracks": 96,
+   "categories": [
+    "Brunch / lunch"
+   ],
+   "genres": [],
+   "energies": [
+    "energiek"
+   ],
+   "spotify": false
+  },
+  {
+   "id": "37i9dQZF1DX4wta20PHgwo",
+   "name": "Late Night Jazz",
+   "desc": "Playlist van Spotify",
+   "img": "https://i.scdn.co/image/ab67706f00000002418902db3dd45091f82d97af",
+   "followers": null,
+   "tracks": null,
+   "spotify": true,
+   "categories": [
+    "Chic diner",
+    "Cocktailparty",
+    "Wijnproeverij / degustatie"
+   ],
+   "genres": [
+    "Jazz"
+   ],
+   "energies": [
+    "rustig"
+   ]
+  },
+  {
+   "id": "37i9dQZF1DX0SM0LYsmbMT",
+   "name": "Jazz Vibes",
+   "desc": "Playlist van Spotify",
+   "img": "https://i.scdn.co/image/ab67706f00000002b1275110babf9cdaaea44cef",
+   "followers": null,
+   "tracks": null,
+   "spotify": true,
+   "categories": [
+    "Chic diner",
+    "Brunch / lunch",
+    "Netwerkevent / receptie"
+   ],
+   "genres": [
+    "Jazz"
+   ],
+   "energies": [
+    "gezellig"
+   ]
+  },
+  {
+   "id": "37i9dQZF1DWVqfgj8NZEp1",
+   "name": "Coffee Table Jazz",
+   "desc": "Playlist van Spotify",
+   "img": "https://i.scdn.co/image/ab67706f000000021552736d6a00ef0a51532d0c",
+   "followers": null,
+   "tracks": null,
+   "spotify": true,
+   "categories": [
+    "Brunch / lunch",
+    "Chic diner"
+   ],
+   "genres": [
+    "Jazz"
+   ],
+   "energies": [
+    "gezellig",
+    "rustig"
+   ]
+  },
+  {
+   "id": "37i9dQZF1DX4xuWVBs4FgJ",
+   "name": "Dinner with Friends",
+   "desc": "Playlist van Spotify",
+   "img": "https://i.scdn.co/image/ab67706f00000002a6a35d85da2b230f63a0005a",
+   "followers": null,
+   "tracks": null,
+   "spotify": true,
+   "categories": [
+    "Chic diner",
+    "Brunch / lunch"
+   ],
+   "genres": [
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "gezellig"
+   ]
+  },
+  {
+   "id": "37i9dQZF1DX4sWSpwq3LiO",
+   "name": "Peaceful Piano",
+   "desc": "Playlist van Spotify",
+   "img": "https://i.scdn.co/image/ab67706f0000000270e1fb7db7b45809d6a80377",
+   "followers": null,
+   "tracks": null,
+   "spotify": true,
+   "categories": [
+    "Achtergrond concert",
+    "Bruiloft - ceremonie",
+    "Wellness / spa",
+    "Seminarie / vergadering"
+   ],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [
+    "zeer_rustig"
+   ]
+  },
+  {
+   "id": "37i9dQZF1DX7K31D69s4M1",
+   "name": "Piano in the Background",
+   "desc": "Playlist van Spotify",
+   "img": "https://i.scdn.co/image/ab67706f00000002f8300e3d208eb9209f0e9d7a",
+   "followers": null,
+   "tracks": null,
+   "spotify": true,
+   "categories": [
+    "Netwerkevent / receptie",
+    "Opening / vernissage",
+    "Seminarie / vergadering"
+   ],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [
+    "zeer_rustig",
+    "rustig"
+   ]
+  },
+  {
+   "id": "37i9dQZF1DWWEJlAGA9gs0",
+   "name": "Classical Essentials",
+   "desc": "Playlist van Spotify",
+   "img": "https://i.scdn.co/image/ab67706f00000002762f5045eac92a372596acca",
+   "followers": null,
+   "tracks": null,
+   "spotify": true,
+   "categories": [
+    "Gala / award show",
+    "Bruiloft - ceremonie",
+    "Opening / vernissage"
+   ],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [
+    "rustig"
+   ]
+  },
+  {
+   "id": "37i9dQZF1DX889U0CL85jj",
+   "name": "Chill Vibes",
+   "desc": "Playlist van Spotify",
+   "img": "https://i.scdn.co/image/ab67706f0000000243cc4425ca68418fcab705fd",
+   "followers": null,
+   "tracks": null,
+   "spotify": true,
+   "categories": [
+    "Lounge / relax",
+    "Zomerse borrel / terras"
+   ],
+   "genres": [
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "rustig"
+   ]
+  },
+  {
+   "id": "37i9dQZF1DX6VdMW310YC7",
+   "name": "Chill Tracks",
+   "desc": "Playlist van Spotify",
+   "img": "https://i.scdn.co/image/ab67706f000000026d9b279a1284995544cb2bd6",
+   "followers": null,
+   "tracks": null,
+   "spotify": true,
+   "categories": [
+    "Lounge / relax",
+    "Achtergrond concert"
+   ],
+   "genres": [
+    "Lounge / Chill",
+    "House / Electronic"
+   ],
+   "energies": [
+    "rustig"
+   ]
+  },
+  {
+   "id": "37i9dQZF1DX4WYpdgoIcn6",
+   "name": "Chill Hits",
+   "desc": "Playlist van Spotify",
+   "img": "https://i.scdn.co/image/ab67706f000000020408713c731caaf1f800615a",
+   "followers": null,
+   "tracks": null,
+   "spotify": true,
+   "categories": [
+    "Zomerse borrel / terras",
+    "Cocktailparty"
+   ],
+   "genres": [
+    "Lounge / Chill",
+    "Pop"
+   ],
+   "energies": [
+    "gezellig"
+   ]
+  },
+  {
+   "id": "37i9dQZF1DX9uKNf5jGX6m",
+   "name": "Yoga & Meditation",
+   "desc": "Playlist van Spotify",
+   "img": "https://i.scdn.co/image/ab67706f000000029e55e964547263ab09709ef8",
+   "followers": null,
+   "tracks": null,
+   "spotify": true,
+   "categories": [
+    "Wellness / spa"
+   ],
+   "genres": [
+    "Klassiek / Instrumentaal"
+   ],
+   "energies": [
+    "zeer_rustig"
+   ]
+  },
+  {
+   "id": "37i9dQZF1DX1s9knjP51Oa",
+   "name": "calm vibes",
+   "desc": "Playlist van Spotify",
+   "img": "https://i.scdn.co/image/ab67706f0000000281ee550c81bbff8053a023e8",
+   "followers": null,
+   "tracks": null,
+   "spotify": true,
+   "categories": [
+    "Wellness / spa",
+    "Lounge / relax"
+   ],
+   "genres": [
+    "Lounge / Chill"
+   ],
+   "energies": [
+    "zeer_rustig"
+   ]
+  }
+ ]
+}
